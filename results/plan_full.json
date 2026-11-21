@@ -1,0 +1,733 @@
+[
+ {
+  "fid": "f01",
+  "case": "batch-01KQHDBBFCJTTJNJV624R7GPT3",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 2,
+  "A": {
+   "index": 0,
+   "service": "profile",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-profile"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "recommendation",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-recommendation"
+   ]
+  },
+  "acceptA": [
+   "profile"
+  ],
+  "acceptB": [
+   "recommendation"
+  ],
+  "family": "profile:PodFailure|recommendation:PodFailure"
+ },
+ {
+  "fid": "f02",
+  "case": "batch-01KQHDBBNP9A2BWM50Z37QJT3A",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 2,
+  "A": {
+   "index": 1,
+   "service": "profile",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-profile"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "search",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-search"
+   ]
+  },
+  "acceptA": [
+   "profile"
+  ],
+  "acceptB": [
+   "search"
+  ],
+  "family": "profile:PodFailure|search:PodFailure"
+ },
+ {
+  "fid": "f03",
+  "case": "batch-01KQKCQ460GTM8Z77TWY3J9TCX",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 2,
+  "A": {
+   "index": 0,
+   "service": "user",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-user"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "attractions",
+   "chaos_type": "MemoryStress",
+   "role": "required",
+   "container": [
+    "hotel-reserv-attractions"
+   ]
+  },
+  "acceptA": [
+   "user"
+  ],
+  "acceptB": [
+   "attractions"
+  ],
+  "family": "attractions:MemoryStress|user:PodFailure"
+ },
+ {
+  "fid": "f04",
+  "case": "batch-01KQKNGPXS62WE3RN9YYRV9QZJ",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 2,
+  "A": {
+   "index": 1,
+   "service": "attractions",
+   "chaos_type": "MemoryStress",
+   "role": "required",
+   "container": [
+    "hotel-reserv-attractions"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "user",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-user"
+   ]
+  },
+  "acceptA": [
+   "attractions"
+  ],
+  "acceptB": [
+   "user"
+  ],
+  "family": "attractions:MemoryStress|user:PodFailure"
+ },
+ {
+  "fid": "f05",
+  "case": "batch-01KQMBT3GVP6NZ2797Y7S9FC67",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 2,
+  "A": {
+   "index": 0,
+   "service": "user",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-user"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "attractions",
+   "chaos_type": "CPUStress",
+   "role": "required",
+   "container": [
+    "hotel-reserv-attractions"
+   ]
+  },
+  "acceptA": [
+   "user"
+  ],
+  "acceptB": [
+   "attractions"
+  ],
+  "family": "attractions:CPUStress|user:PodFailure"
+ },
+ {
+  "fid": "f06",
+  "case": "batch-01KQHDBB5Y8K69Z13G7VSWG9FS",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 1,
+   "service": "geo",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-geo"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "profile",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-profile"
+   ]
+  },
+  "acceptA": [
+   "geo"
+  ],
+  "acceptB": [
+   "profile"
+  ],
+  "family": "geo:PodFailure|profile:PodFailure"
+ },
+ {
+  "fid": "f07",
+  "case": "batch-01KQJ2C5B42PRP003GBETSMEWX",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "search",
+   "chaos_type": "NetworkDelay",
+   "role": "required",
+   "container": [
+    "hotel-reserv-rate",
+    "hotel-reserv-search"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "recommendation",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-recommendation"
+   ]
+  },
+  "acceptA": [
+   "rate",
+   "search"
+  ],
+  "acceptB": [
+   "recommendation"
+  ],
+  "family": "recommendation:PodFailure|search:NetworkDelay"
+ },
+ {
+  "fid": "f08",
+  "case": "batch-01KQJAQ4RF51KJ73PS5Z2Y9Q1X",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 1,
+   "service": "rate",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-rate"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "profile",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-profile"
+   ]
+  },
+  "acceptA": [
+   "rate"
+  ],
+  "acceptB": [
+   "profile"
+  ],
+  "family": "profile:PodFailure|rate:PodFailure"
+ },
+ {
+  "fid": "f09",
+  "case": "batch-01KQJNRK9RP67RCPCFMCWA1MHJ",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "search",
+   "chaos_type": "NetworkDelay",
+   "role": "required",
+   "container": [
+    "hotel-reserv-rate",
+    "hotel-reserv-search"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "recommendation",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-recommendation"
+   ]
+  },
+  "acceptA": [
+   "rate",
+   "search"
+  ],
+  "acceptB": [
+   "recommendation"
+  ],
+  "family": "recommendation:PodFailure|search:NetworkDelay"
+ },
+ {
+  "fid": "f10",
+  "case": "batch-01KQKFNZBBTZ69WTAZ7T3JDC7A",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 1,
+   "service": "ts-user-service",
+   "chaos_type": "DNSError",
+   "role": "required",
+   "container": [
+    "ts-auth-service",
+    "ts-user-service"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "ts-user-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-user-service"
+   ]
+  },
+  "acceptA": [
+   "ts-user-service"
+  ],
+  "acceptB": [
+   "ts-user-service"
+  ],
+  "family": "ts-user-service:DNSError|ts-user-service:JVMLatency"
+ },
+ {
+  "fid": "f11",
+  "case": "batch-01KQKFS3XYZAA7G3ZSPME1H3MJ",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "ts-preserve-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-preserve-service"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "ts-food-service",
+   "chaos_type": "NetworkLoss",
+   "role": "required",
+   "container": [
+    "mysql",
+    "ts-food-service"
+   ]
+  },
+  "acceptA": [
+   "ts-preserve-service"
+  ],
+  "acceptB": [
+   "mysql",
+   "ts-food-service"
+  ],
+  "family": "ts-food-service:NetworkLoss|ts-preserve-service:JVMLatency"
+ },
+ {
+  "fid": "f12",
+  "case": "batch-01KQKKWXPFYKAREMQHEP5M7WSH",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 1,
+   "service": "profile",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-profile"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "search",
+   "chaos_type": "NetworkPartition",
+   "role": "required",
+   "container": [
+    "hotel-reserv-rate",
+    "hotel-reserv-search"
+   ]
+  },
+  "acceptA": [
+   "profile"
+  ],
+  "acceptB": [
+   "rate",
+   "search"
+  ],
+  "family": "profile:PodFailure|search:NetworkPartition"
+ },
+ {
+  "fid": "f13",
+  "case": "batch-01KQNVW1CKHX0QRAH6TN15A58M",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "geo",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-geo"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "reservation",
+   "chaos_type": "MemoryStress",
+   "role": "required",
+   "container": [
+    "hotel-reserv-reservation"
+   ]
+  },
+  "acceptA": [
+   "geo"
+  ],
+  "acceptB": [
+   "reservation"
+  ],
+  "family": "geo:PodFailure|reservation:MemoryStress"
+ },
+ {
+  "fid": "f14",
+  "case": "batch-01KQNXAEQVTBCRJVCEQXDP2F16",
+  "system": "hs",
+  "kind": "hybrid",
+  "n_edges": 3,
+  "A": {
+   "index": 1,
+   "service": "reservation",
+   "chaos_type": "MemoryStress",
+   "role": "required",
+   "container": [
+    "hotel-reserv-reservation"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "rate",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-rate"
+   ]
+  },
+  "acceptA": [
+   "reservation"
+  ],
+  "acceptB": [
+   "rate"
+  ],
+  "family": "rate:PodFailure|reservation:MemoryStress"
+ },
+ {
+  "fid": "f15",
+  "case": "batch-01KQKMRHFSXYCTWWH8B2T0YJR2",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 4,
+  "A": {
+   "index": 0,
+   "service": "ts-admin-route-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-admin-route-service"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "ts-route-service",
+   "chaos_type": "NetworkPartition",
+   "role": "required",
+   "container": [
+    "mysql",
+    "ts-route-service"
+   ]
+  },
+  "acceptA": [
+   "ts-admin-route-service"
+  ],
+  "acceptB": [
+   "mysql",
+   "ts-route-service"
+  ],
+  "family": "ts-admin-route-service:JVMLatency|ts-route-service:NetworkPartition"
+ },
+ {
+  "fid": "f16",
+  "case": "batch-01KQKFNFS3PJNP39G6R8CF87MG",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 5,
+  "A": {
+   "index": 1,
+   "service": "ts-travel2-service",
+   "chaos_type": "NetworkLoss",
+   "role": "required",
+   "container": [
+    "ts-route-service",
+    "ts-travel2-service"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "ts-route-plan-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-route-plan-service"
+   ]
+  },
+  "acceptA": [
+   "ts-route-service",
+   "ts-travel2-service"
+  ],
+  "acceptB": [
+   "ts-route-plan-service"
+  ],
+  "family": "ts-route-plan-service:JVMLatency|ts-travel2-service:NetworkLoss"
+ },
+ {
+  "fid": "f17",
+  "case": "batch-01KQKMRDMTWWE8GWV93PV29NCR",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 6,
+  "A": {
+   "index": 0,
+   "service": "ts-travel-plan-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-travel-plan-service"
+   ]
+  },
+  "B": {
+   "index": 1,
+   "service": "ts-seat-service",
+   "chaos_type": "NetworkCorrupt",
+   "role": "required",
+   "container": [
+    "ts-config-service",
+    "ts-seat-service"
+   ]
+  },
+  "acceptA": [
+   "ts-travel-plan-service"
+  ],
+  "acceptB": [
+   "ts-config-service",
+   "ts-seat-service"
+  ],
+  "family": "ts-seat-service:NetworkCorrupt|ts-travel-plan-service:JVMLatency"
+ },
+ {
+  "fid": "f18",
+  "case": "batch-01KQKK2SRJXG5E0GJRA7MD1642",
+  "system": "ts",
+  "kind": "hybrid",
+  "n_edges": 23,
+  "A": {
+   "index": 1,
+   "service": "ts-route-service",
+   "chaos_type": "NetworkCorrupt",
+   "role": "required",
+   "container": [
+    "mysql",
+    "ts-route-service"
+   ]
+  },
+  "B": {
+   "index": 0,
+   "service": "ts-admin-route-service",
+   "chaos_type": "JVMLatency",
+   "role": "required",
+   "container": [
+    "ts-admin-route-service"
+   ]
+  },
+  "acceptA": [
+   "mysql",
+   "ts-route-service"
+  ],
+  "acceptB": [
+   "ts-admin-route-service"
+  ],
+  "family": "ts-admin-route-service:JVMLatency|ts-route-service:NetworkCorrupt"
+ },
+ {
+  "fid": "k01",
+  "case": "hs0-attractions-pod-failure-s8fsgm",
+  "system": "hs",
+  "kind": "control",
+  "n_edges": 0,
+  "A": {
+   "index": 0,
+   "service": "attractions",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "hotel-reserv-attractions"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "attractions"
+  ],
+  "acceptB": null,
+  "family": "attractions:PodFailure"
+ },
+ {
+  "fid": "k02",
+  "case": "hs0-frontend-partition-j6lxxv",
+  "system": "hs",
+  "kind": "control",
+  "n_edges": 1,
+  "A": {
+   "index": 0,
+   "service": "frontend",
+   "chaos_type": "NetworkPartition",
+   "role": "required",
+   "container": [
+    "hotel-reserv-frontend",
+    "hotel-reserv-profile"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "frontend",
+   "profile"
+  ],
+  "acceptB": null,
+  "family": "frontend:NetworkPartition"
+ },
+ {
+  "fid": "k03",
+  "case": "otel-demo0-checkout-corrupt-jv4q9x",
+  "system": "otel-demo",
+  "kind": "control",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "checkout",
+   "chaos_type": "NetworkCorrupt",
+   "role": "required",
+   "container": [
+    "checkout",
+    "currency"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "checkout",
+   "currency"
+  ],
+  "acceptB": null,
+  "family": "checkout:NetworkCorrupt"
+ },
+ {
+  "fid": "k04",
+  "case": "otel-demo0-payment-pod-failure-fn9frc",
+  "system": "otel-demo",
+  "kind": "control",
+  "n_edges": 3,
+  "A": {
+   "index": 0,
+   "service": "payment",
+   "chaos_type": "PodFailure",
+   "role": "required",
+   "container": [
+    "payment"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "payment"
+  ],
+  "acceptB": null,
+  "family": "payment:PodFailure"
+ },
+ {
+  "fid": "k05",
+  "case": "ts0-mysql-loss-67k278",
+  "system": "ts",
+  "kind": "control",
+  "n_edges": 14,
+  "A": {
+   "index": 0,
+   "service": "mysql",
+   "chaos_type": "NetworkLoss",
+   "role": "required",
+   "container": [
+    "mysql",
+    "ts-train-service"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "mysql"
+  ],
+  "acceptB": null,
+  "family": "mysql:NetworkLoss"
+ },
+ {
+  "fid": "k06",
+  "case": "ts0-mysql-partition-5pf26g",
+  "system": "ts",
+  "kind": "control",
+  "n_edges": 11,
+  "A": {
+   "index": 0,
+   "service": "mysql",
+   "chaos_type": "NetworkPartition",
+   "role": "required",
+   "container": [
+    "mysql",
+    "ts-order-other-service"
+   ]
+  },
+  "B": null,
+  "acceptA": [
+   "mysql"
+  ],
+  "acceptB": null,
+  "family": "mysql:NetworkPartition"
+ }
+]

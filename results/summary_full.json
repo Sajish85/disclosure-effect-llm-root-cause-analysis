@@ -1,0 +1,914 @@
+{
+ "O|screen": {
+  "at_risk": [
+   "f01",
+   "f02",
+   "f04",
+   "f05",
+   "f06",
+   "f07",
+   "f08",
+   "f09",
+   "f10",
+   "f11",
+   "f12",
+   "f14",
+   "f15",
+   "f16",
+   "f17"
+  ],
+  "floor": [
+   "f03",
+   "f13",
+   "f18"
+  ],
+  "screen_hits": {
+   "f01": [
+    2,
+    2
+   ],
+   "f02": [
+    2,
+    2
+   ],
+   "f03": [
+    0,
+    2
+   ],
+   "f04": [
+    2,
+    2
+   ],
+   "f05": [
+    2,
+    2
+   ],
+   "f06": [
+    2,
+    2
+   ],
+   "f07": [
+    2,
+    2
+   ],
+   "f08": [
+    2,
+    2
+   ],
+   "f09": [
+    2,
+    2
+   ],
+   "f10": [
+    2,
+    2
+   ],
+   "f11": [
+    2,
+    2
+   ],
+   "f12": [
+    2,
+    2
+   ],
+   "f13": [
+    0,
+    2
+   ],
+   "f14": [
+    2,
+    2
+   ],
+   "f15": [
+    2,
+    2
+   ],
+   "f16": [
+    1,
+    2
+   ],
+   "f17": [
+    2,
+    2
+   ],
+   "f18": [
+    0,
+    2
+   ]
+  }
+ },
+ "O|iii_vs_i|at_risk|hitB": {
+  "n_cases": 15,
+  "mean": -0.1556,
+  "lo": -0.3556,
+  "hi": 0.0,
+  "up": 0,
+  "down": 3,
+  "same": 12
+ },
+ "O|iii_vs_i|at_risk|hitB_strict": {
+  "n_cases": 15,
+  "mean": -0.1333,
+  "lo": -0.3111,
+  "hi": 0.0,
+  "up": 0,
+  "down": 3,
+  "same": 12
+ },
+ "O|iii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.1481,
+  "lo": -0.3148,
+  "hi": 0.0,
+  "up": 0,
+  "down": 4,
+  "same": 14
+ },
+ "O|iii_vs_i|all|hitB_strict": {
+  "n_cases": 18,
+  "mean": -0.1296,
+  "lo": -0.2778,
+  "hi": 0.0,
+  "up": 0,
+  "down": 4,
+  "same": 14
+ },
+ "O|iii_vs_i|floor|hitB": {
+  "n_cases": 3,
+  "mean": -0.1111,
+  "lo": -0.4444,
+  "hi": 0.0,
+  "up": 0,
+  "down": 1,
+  "same": 2
+ },
+ "O|iii_vs_i|floor|hitB_strict": {
+  "n_cases": 3,
+  "mean": -0.1111,
+  "lo": -0.4444,
+  "hi": 0.0,
+  "up": 0,
+  "down": 1,
+  "same": 2
+ },
+ "O|ii_vs_i|at_risk|hitB": {
+  "n_cases": 15,
+  "mean": 0.0222,
+  "lo": 0.0,
+  "hi": 0.0889,
+  "up": 1,
+  "down": 0,
+  "same": 14
+ },
+ "O|ii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.037,
+  "lo": -0.0185,
+  "hi": 0.1111,
+  "up": 2,
+  "down": 0,
+  "same": 16
+ },
+ "O|ii_vs_i|floor|hitB": {
+  "n_cases": 3,
+  "mean": 0.1111,
+  "lo": -0.1111,
+  "hi": 0.4444,
+  "up": 1,
+  "down": 0,
+  "same": 2
+ },
+ "O|fix_vs_iii|at_risk|hitB": {
+  "n_cases": 15,
+  "mean": 0.0889,
+  "lo": -0.0222,
+  "hi": 0.2444,
+  "up": 2,
+  "down": 0,
+  "same": 13
+ },
+ "O|fix_vs_iii|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.0926,
+  "lo": -0.0185,
+  "hi": 0.2222,
+  "up": 3,
+  "down": 0,
+  "same": 15
+ },
+ "O|fix_vs_iii|floor|hitB": {
+  "n_cases": 3,
+  "mean": 0.1111,
+  "lo": 0.0,
+  "hi": 0.4444,
+  "up": 1,
+  "down": 0,
+  "same": 2
+ },
+ "O|fix_vs_i|at_risk|hitB": {
+  "n_cases": 15,
+  "mean": -0.0667,
+  "lo": -0.1778,
+  "hi": 0.0,
+  "up": 0,
+  "down": 3,
+  "same": 12
+ },
+ "O|fix_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.0556,
+  "lo": -0.1667,
+  "hi": 0.037,
+  "up": 1,
+  "down": 4,
+  "same": 13
+ },
+ "O|fix_vs_i|floor|hitB": {
+  "n_cases": 3,
+  "mean": 0.0,
+  "lo": -0.4444,
+  "hi": 0.4444,
+  "up": 1,
+  "down": 1,
+  "same": 1
+ },
+ "O|PRIMARY_iii_vs_i_at_risk_family": {
+  "n_cases": 15,
+  "mean": -0.1556,
+  "lo": -0.3571,
+  "hi": 0.0,
+  "up": 0,
+  "down": 3,
+  "same": 12
+ },
+ "O|rate|i": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 43,
+  "hitA": 38,
+  "spurious_runs": 0,
+  "mean_tools": 6.0,
+  "mean_tools_cost": 12.319
+ },
+ "O|rate|ii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 45,
+  "hitA": 39,
+  "spurious_runs": 0,
+  "mean_tools": 6.76,
+  "mean_tools_cost": 13.653
+ },
+ "O|rate|iii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 35,
+  "hitA": 52,
+  "spurious_runs": 0,
+  "mean_tools": 5.54,
+  "mean_tools_cost": 9.492
+ },
+ "O|rate|fix": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 40,
+  "hitA": 52,
+  "spurious_runs": 0,
+  "mean_tools": 5.52,
+  "mean_tools_cost": 10.336
+ },
+ "O|ctl|ctl_truth": {
+  "n": 18,
+  "spurious_runs": 0,
+  "wilson": [
+   0.0,
+   0.176
+  ],
+  "disclosed_named": 18
+ },
+ "O|ctl|ctl_invite": {
+  "n": 18,
+  "spurious_runs": 1,
+  "wilson": [
+   0.01,
+   0.258
+  ],
+  "disclosed_named": 18
+ },
+ "S|screen": {
+  "at_risk": [
+   "f01",
+   "f02",
+   "f03",
+   "f04",
+   "f05",
+   "f06",
+   "f07",
+   "f08",
+   "f09",
+   "f10",
+   "f11",
+   "f12",
+   "f14",
+   "f15",
+   "f16",
+   "f17"
+  ],
+  "floor": [
+   "f13",
+   "f18"
+  ],
+  "screen_hits": {
+   "f01": [
+    2,
+    2
+   ],
+   "f02": [
+    2,
+    2
+   ],
+   "f03": [
+    2,
+    2
+   ],
+   "f04": [
+    2,
+    2
+   ],
+   "f05": [
+    1,
+    2
+   ],
+   "f06": [
+    1,
+    2
+   ],
+   "f07": [
+    2,
+    2
+   ],
+   "f08": [
+    2,
+    2
+   ],
+   "f09": [
+    2,
+    2
+   ],
+   "f10": [
+    2,
+    2
+   ],
+   "f11": [
+    2,
+    2
+   ],
+   "f12": [
+    2,
+    2
+   ],
+   "f13": [
+    0,
+    2
+   ],
+   "f14": [
+    2,
+    2
+   ],
+   "f15": [
+    2,
+    2
+   ],
+   "f16": [
+    2,
+    2
+   ],
+   "f17": [
+    2,
+    2
+   ],
+   "f18": [
+    0,
+    2
+   ]
+  }
+ },
+ "S|iii_vs_i|at_risk|hitB": {
+  "n_cases": 16,
+  "mean": -0.8958,
+  "lo": -1.0,
+  "hi": -0.7708,
+  "up": 0,
+  "down": 16,
+  "same": 0
+ },
+ "S|iii_vs_i|at_risk|hitB_strict": {
+  "n_cases": 16,
+  "mean": -0.2917,
+  "lo": -0.4792,
+  "hi": -0.125,
+  "up": 0,
+  "down": 10,
+  "same": 6
+ },
+ "S|iii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.7963,
+  "lo": -0.9444,
+  "hi": -0.6111,
+  "up": 0,
+  "down": 16,
+  "same": 2
+ },
+ "S|iii_vs_i|all|hitB_strict": {
+  "n_cases": 18,
+  "mean": -0.2593,
+  "lo": -0.4259,
+  "hi": -0.1111,
+  "up": 0,
+  "down": 10,
+  "same": 8
+ },
+ "S|iii_vs_i|floor|hitB": {
+  "n_cases": 2,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 2
+ },
+ "S|iii_vs_i|floor|hitB_strict": {
+  "n_cases": 2,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 2
+ },
+ "S|ii_vs_i|at_risk|hitB": {
+  "n_cases": 16,
+  "mean": -0.0417,
+  "lo": -0.1875,
+  "hi": 0.1042,
+  "up": 1,
+  "down": 4,
+  "same": 11
+ },
+ "S|ii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.037,
+  "lo": -0.1667,
+  "hi": 0.0926,
+  "up": 1,
+  "down": 4,
+  "same": 13
+ },
+ "S|ii_vs_i|floor|hitB": {
+  "n_cases": 2,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 2
+ },
+ "S|fix_vs_iii|at_risk|hitB": {
+  "n_cases": 16,
+  "mean": 0.5417,
+  "lo": 0.3333,
+  "hi": 0.75,
+  "up": 12,
+  "down": 0,
+  "same": 4
+ },
+ "S|fix_vs_iii|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.4815,
+  "lo": 0.2778,
+  "hi": 0.6852,
+  "up": 12,
+  "down": 0,
+  "same": 6
+ },
+ "S|fix_vs_iii|floor|hitB": {
+  "n_cases": 2,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 2
+ },
+ "S|fix_vs_i|at_risk|hitB": {
+  "n_cases": 16,
+  "mean": -0.3542,
+  "lo": -0.5625,
+  "hi": -0.1458,
+  "up": 0,
+  "down": 9,
+  "same": 7
+ },
+ "S|fix_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.3148,
+  "lo": -0.5185,
+  "hi": -0.1296,
+  "up": 0,
+  "down": 9,
+  "same": 9
+ },
+ "S|fix_vs_i|floor|hitB": {
+  "n_cases": 2,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 2
+ },
+ "S|PRIMARY_iii_vs_i_at_risk_family": {
+  "n_cases": 16,
+  "mean": -0.8958,
+  "lo": -1.0,
+  "hi": -0.7708,
+  "up": 0,
+  "down": 16,
+  "same": 0
+ },
+ "S|rate|i": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 44,
+  "hitA": 36,
+  "spurious_runs": 2,
+  "mean_tools": 4.41,
+  "mean_tools_cost": 3.204
+ },
+ "S|rate|ii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 42,
+  "hitA": 37,
+  "spurious_runs": 1,
+  "mean_tools": 4.48,
+  "mean_tools_cost": 3.057
+ },
+ "S|rate|iii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 1,
+  "hitA": 54,
+  "spurious_runs": 0,
+  "mean_tools": 1.98,
+  "mean_tools_cost": 1.478
+ },
+ "S|rate|fix": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 27,
+  "hitA": 49,
+  "spurious_runs": 0,
+  "mean_tools": 3.46,
+  "mean_tools_cost": 2.603
+ },
+ "S|ctl|ctl_truth": {
+  "n": 18,
+  "spurious_runs": 0,
+  "wilson": [
+   0.0,
+   0.176
+  ],
+  "disclosed_named": 18
+ },
+ "S|ctl|ctl_invite": {
+  "n": 18,
+  "spurious_runs": 0,
+  "wilson": [
+   0.0,
+   0.176
+  ],
+  "disclosed_named": 18
+ },
+ "X|screen": {
+  "at_risk": [
+   "f01",
+   "f02",
+   "f03",
+   "f04",
+   "f05",
+   "f06",
+   "f07",
+   "f08",
+   "f09",
+   "f10",
+   "f11",
+   "f12",
+   "f13",
+   "f14",
+   "f15",
+   "f16",
+   "f17"
+  ],
+  "floor": [
+   "f18"
+  ],
+  "screen_hits": {
+   "f01": [
+    2,
+    2
+   ],
+   "f02": [
+    2,
+    2
+   ],
+   "f03": [
+    2,
+    2
+   ],
+   "f04": [
+    2,
+    2
+   ],
+   "f05": [
+    2,
+    2
+   ],
+   "f06": [
+    2,
+    2
+   ],
+   "f07": [
+    2,
+    2
+   ],
+   "f08": [
+    2,
+    2
+   ],
+   "f09": [
+    2,
+    2
+   ],
+   "f10": [
+    2,
+    2
+   ],
+   "f11": [
+    2,
+    2
+   ],
+   "f12": [
+    2,
+    2
+   ],
+   "f13": [
+    2,
+    2
+   ],
+   "f14": [
+    2,
+    2
+   ],
+   "f15": [
+    2,
+    2
+   ],
+   "f16": [
+    2,
+    2
+   ],
+   "f17": [
+    2,
+    2
+   ],
+   "f18": [
+    0,
+    2
+   ]
+  }
+ },
+ "X|iii_vs_i|at_risk|hitB": {
+  "n_cases": 17,
+  "mean": -0.0196,
+  "lo": -0.1765,
+  "hi": 0.098,
+  "up": 2,
+  "down": 1,
+  "same": 14
+ },
+ "X|iii_vs_i|at_risk|hitB_strict": {
+  "n_cases": 17,
+  "mean": -0.0392,
+  "lo": -0.1961,
+  "hi": 0.098,
+  "up": 2,
+  "down": 2,
+  "same": 13
+ },
+ "X|iii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": -0.0185,
+  "lo": -0.1667,
+  "hi": 0.0926,
+  "up": 2,
+  "down": 1,
+  "same": 15
+ },
+ "X|iii_vs_i|all|hitB_strict": {
+  "n_cases": 18,
+  "mean": -0.037,
+  "lo": -0.1852,
+  "hi": 0.0926,
+  "up": 2,
+  "down": 2,
+  "same": 14
+ },
+ "X|iii_vs_i|floor|hitB": {
+  "n_cases": 1,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 1
+ },
+ "X|iii_vs_i|floor|hitB_strict": {
+  "n_cases": 1,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 1
+ },
+ "X|ii_vs_i|at_risk|hitB": {
+  "n_cases": 17,
+  "mean": 0.0392,
+  "lo": -0.0588,
+  "hi": 0.1569,
+  "up": 2,
+  "down": 1,
+  "same": 14
+ },
+ "X|ii_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.0556,
+  "lo": -0.037,
+  "hi": 0.1852,
+  "up": 3,
+  "down": 1,
+  "same": 14
+ },
+ "X|ii_vs_i|floor|hitB": {
+  "n_cases": 1,
+  "mean": 0.3333,
+  "lo": 0.0,
+  "hi": 1.0,
+  "up": 1,
+  "down": 0,
+  "same": 0
+ },
+ "X|fix_vs_iii|at_risk|hitB": {
+  "n_cases": 17,
+  "mean": 0.0784,
+  "lo": 0.0,
+  "hi": 0.2157,
+  "up": 2,
+  "down": 0,
+  "same": 15
+ },
+ "X|fix_vs_iii|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.0741,
+  "lo": 0.0,
+  "hi": 0.2037,
+  "up": 2,
+  "down": 0,
+  "same": 16
+ },
+ "X|fix_vs_iii|floor|hitB": {
+  "n_cases": 1,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 1
+ },
+ "X|fix_vs_i|at_risk|hitB": {
+  "n_cases": 17,
+  "mean": 0.0588,
+  "lo": 0.0,
+  "hi": 0.1765,
+  "up": 2,
+  "down": 0,
+  "same": 15
+ },
+ "X|fix_vs_i|all|hitB": {
+  "n_cases": 18,
+  "mean": 0.0556,
+  "lo": 0.0,
+  "hi": 0.1667,
+  "up": 2,
+  "down": 0,
+  "same": 16
+ },
+ "X|fix_vs_i|floor|hitB": {
+  "n_cases": 1,
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "up": 0,
+  "down": 0,
+  "same": 1
+ },
+ "X|PRIMARY_iii_vs_i_at_risk_family": {
+  "n_cases": 17,
+  "mean": -0.0196,
+  "lo": -0.1875,
+  "hi": 0.1042,
+  "up": 2,
+  "down": 1,
+  "same": 14
+ },
+ "X|rate|i": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 48,
+  "hitA": 45,
+  "spurious_runs": 0,
+  "mean_tools": 6.57,
+  "mean_tools_cost": 0
+ },
+ "X|rate|ii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 51,
+  "hitA": 44,
+  "spurious_runs": 0,
+  "mean_tools": 6.37,
+  "mean_tools_cost": 0
+ },
+ "X|rate|iii": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 47,
+  "hitA": 41,
+  "spurious_runs": 0,
+  "mean_tools": 5.69,
+  "mean_tools_cost": 0
+ },
+ "X|rate|fix": {
+  "runs": 54,
+  "parsed": 54,
+  "hitB": 51,
+  "hitA": 50,
+  "spurious_runs": 0,
+  "mean_tools": 6.28,
+  "mean_tools_cost": 0
+ },
+ "X|ctl|ctl_truth": {
+  "n": 18,
+  "spurious_runs": 1,
+  "wilson": [
+   0.01,
+   0.258
+  ],
+  "disclosed_named": 18
+ },
+ "X|ctl|ctl_invite": {
+  "n": 18,
+  "spurious_runs": 3,
+  "wilson": [
+   0.058,
+   0.392
+  ],
+  "disclosed_named": 18
+ },
+ "_meta": {
+  "runs": 864,
+  "parsed": 864,
+  "invalid": 0,
+  "leak_key_runs": 0,
+  "outside_path_runs": 3,
+  "extra_file_runs": 0,
+  "claude_cost_usd": 79.98,
+  "cost_by_diag": {
+   "O": 65.3,
+   "X": 0,
+   "S": 14.67
+  },
+  "codex_tokens": {
+   "inp": 67974984,
+   "out": 506742,
+   "cached": 57029504
+  },
+  "runs_by_diag": {
+   "O": 288,
+   "S": 288,
+   "X": 288
+  }
+ }
+}

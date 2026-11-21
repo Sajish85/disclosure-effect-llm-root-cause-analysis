@@ -1,0 +1,865 @@
+rid,fid,system,kind,arm,diag,rep,model,parsed,named,n_named,hitA,hitB,hitB_strict,spurious,tools,tok_in,tok_out,tok_cached,cost_usd,secs,pre_eq_src,post_eq_pre,extra_files,leak_key,outside_paths,outside_examples,started,err
+f01_fix_O_r1,f01,hs,hybrid,fix,O,r1,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,10,1966,113422,0.1297644,30,1,1,0,0,0,,1795181829.363343,0
+f01_fix_O_r2,f01,hs,hybrid,fix,O,r2,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,3,8,1926,90471,0.11517419999999999,22,1,1,0,0,0,,1795183162.1924758,0
+f01_fix_O_r3,f01,hs,hybrid,fix,O,r3,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2341,139469,0.1517858,40,1,1,0,0,0,,1795200433.9936042,0
+f01_fix_S_r1,f01,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,550,63764,0.0235604,11,1,1,0,0,0,,1795181818.134805,0
+f01_fix_S_r2,f01,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,644,63493,0.0252733,11,1,1,0,0,0,,1795183125.3997529,0
+f01_fix_S_r3,f01,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,3,8,987,85534,0.0370554,13,1,1,0,0,0,,1795200421.248286,0
+f01_fix_X_r1,f01,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,132336,877,111744,0,35,1,1,0,0,0,,1795181858.748579,0
+f01_fix_X_r2,f01,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,124393,827,106368,0,25,1,1,0,0,0,,1795199570.307609,0
+f01_fix_X_r3,f01,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,160557,1110,115200,0,32,1,1,0,0,0,,1795218006.4118478,0
+f01_i_O_r1,f01,hs,hybrid,i,O,r1,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2521,143765,0.21082900000000002,41,1,1,0,0,0,,1795181818.170571,0
+f01_i_O_r2,f01,hs,hybrid,i,O,r2,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2662,145615,0.226387,27,1,1,0,0,0,,1795183162.0869749,0
+f01_i_O_r3,f01,hs,hybrid,i,O,r3,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2541,144335,0.194879,39,1,1,0,0,0,,1795200421.339968,0
+f01_i_O_s1,f01,hs,hybrid,i,O,s1,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,6,14,2950,157462,0.4173804,41,1,1,0,0,0,,1795180962.606851,0
+f01_i_O_s2,f01,hs,hybrid,i,O,s2,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2784,128064,0.38406880000000004,37,1,1,0,0,0,,1795180962.6051111,0
+f01_i_S_r1,f01,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,profile:PodKill | recommendation:PodKill,2,1,1,0,0,3,8,1501,88631,0.0439891,18,1,1,0,0,0,,1795181818.069346,0
+f01_i_S_r2,f01,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,profile:ContainerKill | recommendation:ContainerKill,2,1,1,0,0,5,12,2204,140573,0.0678453,27,1,1,0,0,0,,1795183161.9122481,0
+f01_i_S_r3,f01,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,1942,135932,0.0616572,22,1,1,0,0,0,,1795200420.9943192,0
+f01_i_S_s1,f01,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,10,1960,110627,0.0535307,24,1,1,0,0,0,,1795180962.608182,0
+f01_i_S_s2,f01,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,recommendation:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2501,165912,0.0684932,31,1,1,0,0,1,/tmp/d1venv,1795180962.607264,0
+f01_i_X_r1,f01,hs,hybrid,i,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | profile:PodFailure,2,1,1,1,0,4,126969,879,97920,0,26,1,1,0,0,0,,1795181836.3570728,0
+f01_i_X_r2,f01,hs,hybrid,i,X,r2,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,166541,1049,131072,0,31,1,1,0,0,0,,1795199570.068623,0
+f01_i_X_r3,f01,hs,hybrid,i,X,r3,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,163336,1155,140800,0,55,1,1,0,0,0,,1795218006.088224,0
+f01_i_X_s1,f01,hs,hybrid,i,X,s1,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,185630,1174,150016,0,33,1,1,0,0,0,,1795180962.61085,0
+f01_i_X_s2,f01,hs,hybrid,i,X,s2,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,169922,1227,145920,0,35,1,1,0,0,0,,1795180962.605255,0
+f01_ii_O_r1,f01,hs,hybrid,ii,O,r1,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2676,145003,0.1760966,36,1,1,0,0,0,,1795181818.157415,0
+f01_ii_O_r2,f01,hs,hybrid,ii,O,r2,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2405,141356,0.17807520000000002,25,1,1,0,0,0,,1795183162.011382,0
+f01_ii_O_r3,f01,hs,hybrid,ii,O,r3,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2420,143500,0.162596,38,1,1,0,0,0,,1795200421.451688,0
+f01_ii_S_r1,f01,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,6,14,1967,169239,0.0772939,26,1,1,0,0,0,,1795181818.081284,0
+f01_ii_S_r2,f01,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2028,134419,0.0557139,26,1,1,0,0,0,,1795183161.96075,0
+f01_ii_S_r3,f01,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,profile:PodKill | recommendation:PodKill,2,1,1,0,0,6,14,2431,158086,0.0661466,28,1,1,0,0,0,,1795200421.0695329,0
+f01_ii_X_r1,f01,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,136964,851,112256,0,25,1,1,0,0,0,,1795181844.260257,0
+f01_ii_X_r2,f01,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,138990,877,107648,0,28,1,1,0,0,0,,1795199570.151993,0
+f01_ii_X_r3,f01,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,137336,870,103552,0,25,1,1,0,0,0,,1795218006.1908932,0
+f01_iii_O_r1,f01,hs,hybrid,iii,O,r1,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,10,1817,110358,0.1193476,34,1,1,0,0,0,,1795181828.615055,0
+f01_iii_O_r2,f01,hs,hybrid,iii,O,r2,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,12,2085,134839,0.1778038,23,1,1,0,0,0,,1795183162.132277,0
+f01_iii_O_r3,f01,hs,hybrid,iii,O,r3,claude-opus-5-5,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,10,2118,110950,0.152286,34,1,1,0,0,0,,1795200431.582756,0
+f01_iii_S_r1,f01,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,604,63462,0.0230182,10,1,1,0,0,0,,1795181818.1051672,0
+f01_iii_S_r2,f01,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,666,63445,0.0235965,14,1,1,0,0,0,,1795183125.3421938,0
+f01_iii_S_r3,f01,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,3,8,745,84892,0.0322312,10,1,1,0,0,0,,1795200421.156584,0
+f01_iii_X_r1,f01,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,5,158820,1039,130560,0,30,1,1,0,0,0,,1795181854.5364878,0
+f01_iii_X_r2,f01,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,128070,994,99712,0,29,1,1,0,0,0,,1795199570.223868,0
+f01_iii_X_r3,f01,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,profile:PodFailure | recommendation:PodFailure,2,1,1,1,0,4,128953,932,99456,0,28,1,1,0,0,0,,1795218006.303128,0
+f02_fix_O_r1,f02,hs,hybrid,fix,O,r1,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,7,16,3154,208925,0.212289,55,1,1,0,0,0,,1795181893.389298,0
+f02_fix_O_r2,f02,hs,hybrid,fix,O,r2,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,12,2600,145925,0.186073,27,1,1,0,0,0,,1795183220.955581,0
+f02_fix_O_r3,f02,hs,hybrid,fix,O,r3,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,6,14,3188,174680,0.19290400000000002,48,1,1,0,0,0,,1795200469.315215,0
+f02_fix_S_r1,f02,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,10,2111,110698,0.0515678,24,1,1,0,0,0,,1795181869.1201448,0
+f02_fix_S_r2,f02,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,6,14,2833,163273,0.0750813,38,1,1,0,0,0,,1795183188.0497868,0
+f02_fix_S_r3,f02,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,3,8,1084,86387,0.0362267,13,1,1,0,0,0,,1795200460.263406,0
+f02_fix_X_r1,f02,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,6,181209,1688,146816,0,46,1,1,0,0,0,,1795181928.04651,0
+f02_fix_X_r2,f02,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,129719,966,101504,0,29,1,1,0,0,0,,1795199598.009121,0
+f02_fix_X_r3,f02,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,128565,981,102272,0,28,1,1,0,0,0,,1795218034.002454,0
+f02_i_O_r1,f02,hs,hybrid,i,O,r1,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3139,170699,0.1948878,43,1,1,0,0,0,,1795181872.209357,0
+f02_i_O_r2,f02,hs,hybrid,i,O,r2,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3382,189097,0.29598739999999996,34,1,1,0,0,0,,1795183189.0332239,0
+f02_i_O_r3,f02,hs,hybrid,i,O,r3,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,7,16,3388,212908,0.2392856,60,1,1,0,0,0,,1795200465.61842,0
+f02_i_O_s1,f02,hs,hybrid,i,O,s1,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2840,176614,0.20337080000000002,44,1,1,0,0,0,,1795180995.149767,0
+f02_i_O_s2,f02,hs,hybrid,i,O,s2,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3328,170864,0.1981968,53,1,1,0,0,0,,1795180997.448491,0
+f02_i_S_r1,f02,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,profile:PodKill | search:PodKill,2,1,1,0,0,4,10,1610,110810,0.049172999999999994,18,1,1,0,0,0,,1795181859.3634481,0
+f02_i_S_r2,f02,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,search:PodKill | profile:PodKill,2,1,1,0,0,5,12,2654,134685,0.0715565,37,1,1,0,0,0,,1795183184.010041,0
+f02_i_S_r3,f02,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2061,134898,0.058291800000000005,26,1,1,0,0,0,,1795200443.000433,0
+f02_i_S_s1,f02,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2950,168787,0.0885667,33,1,1,0,0,0,,1795180986.2259278,0
+f02_i_S_s2,f02,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,search:DNSError | profile:DNSError,2,1,1,0,0,6,14,3123,159697,0.0751917,35,1,1,0,0,0,,1795180993.701746,0
+f02_i_X_r1,f02,hs,hybrid,i,X,r1,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,163140,1175,131072,0,35,1,1,0,0,0,,1795181893.4061859,0
+f02_i_X_r2,f02,hs,hybrid,i,X,r2,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,164285,1304,141824,0,37,1,1,0,0,0,,1795199570.394219,0
+f02_i_X_r3,f02,hs,hybrid,i,X,r3,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,187045,1400,150784,0,38,1,1,0,0,0,,1795218006.54656,0
+f02_i_X_s1,f02,hs,hybrid,i,X,s1,gpt-6.2-sol,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,5,184468,1192,154880,0,35,1,1,0,0,0,,1795181000.018852,0
+f02_i_X_s2,f02,hs,hybrid,i,X,s2,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,168505,1287,132608,0,34,1,1,0,0,0,,1795181003.319324,0
+f02_ii_O_r1,f02,hs,hybrid,ii,O,r1,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,7,16,3317,207093,0.22089460000000002,54,1,1,0,0,0,,1795181877.814395,0
+f02_ii_O_r2,f02,hs,hybrid,ii,O,r2,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,7,16,3599,203824,0.2606728,41,1,1,0,0,0,,1795183189.3786292,0
+f02_ii_O_r3,f02,hs,hybrid,ii,O,r3,claude-opus-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3349,171599,0.20690779999999998,54,1,1,0,0,0,,1795200467.835041,0
+f02_ii_S_r1,f02,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3022,164382,0.07901419999999999,37,1,1,0,0,0,,1795181862.362278,0
+f02_ii_S_r2,f02,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2708,134463,0.07027430000000001,42,1,1,0,0,0,,1795183185.384757,0
+f02_ii_S_r3,f02,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,0,0,0,1,4,10,1775,111436,0.0547736,19,1,1,0,0,0,,1795200448.730773,0
+f02_ii_X_r1,f02,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,5,155447,1173,134400,0,51,1,1,0,0,0,,1795181899.788717,0
+f02_ii_X_r2,f02,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,5,195443,1281,161536,0,37,1,1,0,0,0,,1795199570.470674,0
+f02_ii_X_r3,f02,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,search:PodFailure | profile:PodFailure,2,1,1,1,0,5,177385,1323,150784,0,37,1,1,0,0,0,,1795218006.65258,0
+f02_iii_O_r1,f02,hs,hybrid,iii,O,r1,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,6,14,2765,170028,0.1658336,46,1,1,0,0,0,,1795181884.849588,0
+f02_iii_O_r2,f02,hs,hybrid,iii,O,r2,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,7,16,2959,193483,0.17186859999999998,36,1,1,0,0,0,,1795183200.111017,0
+f02_iii_O_r3,f02,hs,hybrid,iii,O,r3,claude-opus-5-5,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,6,14,3070,172395,0.18827900000000003,50,1,1,0,0,0,,1795200468.958459,0
+f02_iii_S_r1,f02,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,664,63437,0.0251117,9,1,1,0,0,0,,1795181862.793827,0
+f02_iii_S_r2,f02,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,3,8,930,86298,0.0323378,13,1,1,0,0,0,,1795183186.990619,0
+f02_iii_S_r3,f02,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,678,63578,0.025681800000000005,10,1,1,0,0,0,,1795200459.7322628,0
+f02_iii_X_r1,f02,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,129746,957,103296,0,30,1,1,0,0,0,,1795181914.963798,0
+f02_iii_X_r2,f02,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,121501,904,104832,0,42,1,1,0,0,0,,1795199595.730957,0
+f02_iii_X_r3,f02,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,profile:PodFailure | search:PodFailure,2,1,1,1,0,4,124233,793,107648,0,28,1,1,0,0,0,,1795218031.69194,0
+f03_fix_O_r1,f03,hs,hybrid,fix,O,r1,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,5,12,2516,145457,0.1822834,41,1,1,0,0,0,,1795181967.067897,0
+f03_fix_O_r2,f03,hs,hybrid,fix,O,r2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2922,170507,0.19817339999999997,31,1,1,0,0,0,,1795183256.0792909,0
+f03_fix_O_r3,f03,hs,hybrid,fix,O,r3,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2214,167855,0.159755,47,1,1,0,0,0,,1795200518.695613,0
+f03_fix_S_r1,f03,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1529,85800,0.04437,18,1,1,0,0,0,,1795181948.608232,0
+f03_fix_S_r2,f03,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,6,14,2056,160431,0.0617551,45,1,1,0,0,0,,1795183230.164563,0
+f03_fix_S_r3,f03,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1339,85288,0.0404988,15,1,1,0,0,0,,1795200497.575661,0
+f03_fix_X_r1,f03,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,213763,1398,166272,0,42,1,1,0,0,0,,1795181998.520393,0
+f03_fix_X_r2,f03,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,173851,1214,147968,0,34,1,1,0,0,0,,1795199607.421691,0
+f03_fix_X_r3,f03,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,190103,1370,138368,0,40,1,1,0,0,0,,1795218060.447372,0
+f03_i_O_r1,f03,hs,hybrid,i,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,12,2818,144321,0.2380882,44,1,1,0,0,0,,1795181950.36534,0
+f03_i_O_r2,f03,hs,hybrid,i,O,r2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1744,90249,0.1271698,20,1,1,0,0,0,,1795183236.094031,0
+f03_i_O_r3,f03,hs,hybrid,i,O,r3,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2881,175422,0.1885604,47,1,1,0,0,0,,1795200499.6718762,0
+f03_i_O_s1,f03,hs,hybrid,i,O,s1,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2799,174343,0.2269606,45,1,1,0,0,0,,1795181035.4596019,0
+f03_i_O_s2,f03,hs,hybrid,i,O,s2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,3,8,2038,87840,0.17953599999999997,30,1,1,0,0,0,,1795181037.744836,0
+f03_i_S_r1,f03,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,4,10,1992,111477,0.0519237,23,1,1,0,0,0,,1795181930.4642198,0
+f03_i_S_r2,f03,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,user:PodKill | attractions:PodKill,2,1,1,0,0,4,10,1818,110148,0.055086800000000005,36,1,1,0,0,0,,1795183223.593618,0
+f03_i_S_r3,f03,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,attractions:PodFailure,1,0,1,0,0,6,14,2165,160741,0.0624561,24,1,1,0,0,0,,1795200473.204949,0
+f03_i_S_s1,f03,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,user:ContainerKill | attractions:MemoryStress,2,1,1,1,0,5,12,2404,142008,0.07183679999999999,25,1,1,0,0,0,,1795181019.714467,0
+f03_i_S_s2,f03,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,4,10,2119,111222,0.0540002,26,1,1,0,0,0,,1795181029.1755788,0
+f03_i_X_r1,f03,hs,hybrid,i,X,r1,gpt-6.2-sol,1,user:PodFailure,1,1,0,0,0,4,125667,882,100736,0,27,1,1,0,0,0,,1795181971.773515,0
+f03_i_X_r2,f03,hs,hybrid,i,X,r2,gpt-6.2-sol,1,user:PodFailure,1,1,0,0,0,5,148589,1105,121088,0,34,1,1,0,0,0,,1795199599.235434,0
+f03_i_X_r3,f03,hs,hybrid,i,X,r3,gpt-6.2-sol,1,attractions:MemoryStress | user:PodFailure,2,1,1,1,0,5,156573,1330,135936,0,37,1,1,0,0,0,,1795218038.1792388,0
+f03_i_X_s1,f03,hs,hybrid,i,X,s1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,211999,1355,144512,0,47,1,1,0,0,0,,1795181039.467732,0
+f03_i_X_s2,f03,hs,hybrid,i,X,s2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,168240,1111,144640,0,31,1,1,0,0,0,,1795181044.885819,0
+f03_ii_O_r1,f03,hs,hybrid,ii,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,9,20,3705,279307,0.28589739999999997,60,1,1,0,0,0,,1795181953.309579,0
+f03_ii_O_r2,f03,hs,hybrid,ii,O,r2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2998,176439,0.21861579999999997,34,1,1,0,0,0,,1795183240.6131258,0
+f03_ii_O_r3,f03,hs,hybrid,ii,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,7,16,2923,226047,0.24695739999999997,53,1,1,0,0,0,,1795200512.831331,0
+f03_ii_S_r1,f03,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,7,16,2765,187929,0.07331090000000001,40,1,1,0,0,0,,1795181931.8625898,0
+f03_ii_S_r2,f03,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,5,12,2338,138054,0.0643614,45,1,1,0,0,0,,1795183226.247882,0
+f03_ii_S_r3,f03,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,0,0,4,10,1593,110175,0.0472355,16,1,1,0,0,0,,1795200473.6941,0
+f03_ii_X_r1,f03,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,172545,1410,134656,0,39,1,1,0,0,0,,1795181974.476855,0
+f03_ii_X_r2,f03,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,206179,1540,180352,0,41,1,1,0,0,0,,1795199601.296801,0
+f03_ii_X_r3,f03,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,178677,1415,154880,0,38,1,1,0,0,0,,1795218043.788973,0
+f03_iii_O_r1,f03,hs,hybrid,iii,O,r1,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,7,16,2713,190923,0.1742526,45,1,1,0,0,0,,1795181953.9670348,0
+f03_iii_O_r2,f03,hs,hybrid,iii,O,r2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1546,87565,0.087737,17,1,1,0,0,0,,1795183248.425374,0
+f03_iii_O_r3,f03,hs,hybrid,iii,O,r3,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,6,14,2474,164446,0.1689052,48,1,1,0,0,0,,1795200517.613295,0
+f03_iii_S_r1,f03,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,559,62448,0.0263748,9,1,1,0,0,0,,1795181945.1339352,0
+f03_iii_S_r2,f03,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,560,63440,0.022587999999999997,13,1,1,0,0,0,,1795183227.151718,0
+f03_iii_S_r3,f03,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,618,62675,0.0278515,9,1,1,0,0,0,,1795200490.409538,0
+f03_iii_X_r1,f03,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,179374,1359,151296,0,39,1,1,0,0,0,,1795181994.6379368,0
+f03_iii_X_r2,f03,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,user:PodFailure,1,1,0,0,0,5,148415,1131,123136,0,33,1,1,0,0,0,,1795199607.2309592,0
+f03_iii_X_r3,f03,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,151199,1325,116480,0,39,1,1,0,0,0,,1795218044.279354,0
+f04_fix_O_r1,f04,hs,hybrid,fix,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,14,3300,170313,0.2110146,47,1,1,0,0,0,,1795182033.799233,0
+f04_fix_O_r2,f04,hs,hybrid,fix,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,14,3075,173970,0.209774,31,1,1,0,0,0,,1795183289.933194,0
+f04_fix_O_r3,f04,hs,hybrid,fix,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,7,16,2925,205153,0.2362186,49,1,1,0,0,0,,1795200565.7267041,0
+f04_fix_S_r1,f04,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,attractions:MemoryStress | user:PodFailure,2,1,1,1,0,5,12,2350,132938,0.0720578,34,1,1,0,0,0,,1795182013.333318,0
+f04_fix_S_r2,f04,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,attractions:MemoryStress | user:PodFailure,2,1,1,1,0,4,10,2117,111674,0.0568894,31,1,1,0,0,0,,1795183274.204226,0
+f04_fix_S_r3,f04,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,attractions:MemoryStress | user:ContainerKill,2,1,1,0,0,5,12,2355,138584,0.0796364,23,1,1,0,0,0,,1795200546.524698,0
+f04_fix_X_r1,f04,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,attractions:MemoryStress | user:PodFailure,2,1,1,1,0,4,138807,940,107136,0,27,1,1,0,0,0,,1795182067.9108338,0
+f04_fix_X_r2,f04,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,attractions:MemoryStress | user:PodFailure,2,1,1,1,0,4,139672,929,103808,0,27,1,1,0,0,0,,1795199640.6398551,0
+f04_fix_X_r3,f04,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,user:PodFailure,1,0,1,1,0,9,164005,1218,142848,0,37,1,1,0,0,0,,1795218081.8287601,0
+f04_i_O_r1,f04,hs,hybrid,i,O,r1,claude-opus-5-5,1,user:PodFailure,1,0,1,1,0,5,12,2075,138528,0.1441176,33,1,1,0,0,0,,1795182017.0401762,0
+f04_i_O_r2,f04,hs,hybrid,i,O,r2,claude-opus-5-5,1,user:PodFailure,1,0,1,1,0,6,14,2969,169221,0.19568020000000003,31,1,1,0,0,0,,1795183274.727484,0
+f04_i_O_r3,f04,hs,hybrid,i,O,r3,claude-opus-5-5,1,user:PodFailure,1,0,1,1,0,7,16,2888,202438,0.2128476,59,1,1,0,0,0,,1795200551.339844,0
+f04_i_O_s1,f04,hs,hybrid,i,O,s1,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,8,18,3562,243545,0.282893,59,1,1,0,0,0,,1795181067.318059,0
+f04_i_O_s2,f04,hs,hybrid,i,O,s2,claude-opus-5-5,1,user:PodFailure,1,0,1,1,0,5,12,2147,145165,0.170597,33,1,1,0,0,0,,1795181075.648177,0
+f04_i_S_r1,f04,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,user:PodFailure,1,0,1,1,0,3,8,1478,88494,0.043789400000000006,18,1,1,0,0,0,,1795181998.982118,0
+f04_i_S_r2,f04,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,user:ContainerKill,1,0,1,0,0,6,14,2256,163285,0.0723445,32,1,1,0,0,0,,1795183259.835598,0
+f04_i_S_r3,f04,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,attractions:DNSError | user:DNSError,2,1,1,0,0,6,14,2646,162568,0.0790408,29,1,1,0,0,0,,1795200522.386723,0
+f04_i_S_s1,f04,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,user:PodFailure | attractions:HTTPResponseReplaceBody,2,1,1,1,0,7,16,2748,187731,0.0740011,35,1,1,0,0,0,,1795181050.74659,0
+f04_i_S_s2,f04,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,user:PodFailure | attractions:NetworkPartition,2,1,1,1,0,7,14,2596,163975,0.0803295,29,1,1,0,0,0,,1795181055.56797,0
+f04_i_X_r1,f04,hs,hybrid,i,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,210383,1267,150528,0,37,1,1,0,0,0,,1795182040.855357,0
+f04_i_X_r2,f04,hs,hybrid,i,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,174887,1261,148480,0,36,1,1,0,0,0,,1795199627.4328709,0
+f04_i_X_r3,f04,hs,hybrid,i,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,170888,1373,144896,0,39,1,1,0,0,0,,1795218061.355909,0
+f04_i_X_s1,f04,hs,hybrid,i,X,s1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,229696,1331,196736,0,40,1,1,0,0,0,,1795181080.956969,0
+f04_i_X_s2,f04,hs,hybrid,i,X,s2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,4,135612,1074,115072,0,31,1,1,0,0,0,,1795181084.539123,0
+f04_ii_O_r1,f04,hs,hybrid,ii,O,r1,claude-opus-5-5,1,user:PodFailure,1,0,1,1,0,6,14,2835,185492,0.2364544,44,1,1,0,0,0,,1795182024.238543,0
+f04_ii_O_r2,f04,hs,hybrid,ii,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,7,16,3604,200375,0.213851,36,1,1,0,0,0,,1795183286.8525262,0
+f04_ii_O_r3,f04,hs,hybrid,ii,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,7,16,3512,221946,0.2612772,54,1,1,0,0,0,,1795200553.2830532,0
+f04_ii_S_r1,f04,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,1,0,3,8,1525,86700,0.04258,17,1,1,0,0,0,,1795182008.543921,0
+f04_ii_S_r2,f04,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,user:PodFailure,1,0,1,1,0,4,10,1772,110020,0.066786,24,1,1,0,0,0,,1795183265.4320939,0
+f04_ii_S_r3,f04,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,1,0,4,10,1927,109888,0.047474800000000004,18,1,1,0,0,0,,1795200525.274817,0
+f04_ii_X_r1,f04,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,206820,1491,180864,0,49,1,1,0,0,0,,1795182047.81525,0
+f04_ii_X_r2,f04,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,168229,1260,142592,0,55,1,1,0,0,0,,1795199633.443836,0
+f04_ii_X_r3,f04,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,5,186767,1345,147968,0,37,1,1,0,0,0,,1795218061.73798,0
+f04_iii_O_r1,f04,hs,hybrid,iii,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,14,3717,194851,0.3137182,50,1,1,0,0,0,,1795182025.893072,0
+f04_iii_O_r2,f04,hs,hybrid,iii,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,14,2965,175584,0.2119448,32,1,1,0,0,0,,1795183288.469833,0
+f04_iii_O_r3,f04,hs,hybrid,iii,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:MemoryStress,2,1,1,1,0,6,14,2937,178625,0.229561,42,1,1,0,0,0,,1795200565.558175,0
+f04_iii_S_r1,f04,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,attractions:MemoryStress,1,1,0,0,0,2,6,557,62447,0.0262227,11,1,1,0,0,0,,1795182013.1351302,0
+f04_iii_S_r2,f04,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,attractions:MemoryStress,1,1,0,0,0,2,6,796,63798,0.025999799999999997,17,1,1,0,0,0,,1795183271.513909,0
+f04_iii_S_r3,f04,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,attractions:MemoryStress,1,1,0,0,0,2,6,787,63138,0.0322478,10,1,1,0,0,0,,1795200543.323599,0
+f04_iii_X_r1,f04,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,user:PodFailure,1,0,1,1,0,5,162178,1110,140288,0,33,1,1,0,0,0,,1795182050.193912,0
+f04_iii_X_r2,f04,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,user:PodFailure,1,0,1,1,0,5,188072,1329,158976,0,36,1,1,0,0,0,,1795199638.050005,0
+f04_iii_X_r3,f04,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,user:PodFailure,1,0,1,1,0,7,249245,1561,221696,0,45,1,1,0,0,0,,1795218075.5191622,0
+f05_fix_O_r1,f05,hs,hybrid,fix,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,8,18,3774,243670,0.25018199999999996,56,1,1,0,0,0,,1795182099.2865732,0
+f05_fix_O_r2,f05,hs,hybrid,fix,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,14,3422,179528,0.2508176,36,1,1,0,0,0,,1795183321.87062,0
+f05_fix_O_r3,f05,hs,hybrid,fix,O,r3,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1683,87112,0.0923304,28,1,1,0,0,0,,1795200608.1418371,0
+f05_fix_S_r1,f05,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,3,8,1608,86800,0.0434,20,1,1,0,0,0,,1795182083.4417999,0
+f05_fix_S_r2,f05,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,4,10,1786,109826,0.0465026,23,1,1,0,0,0,,1795183315.3229198,0
+f05_fix_S_r3,f05,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,3,8,1518,86242,0.0382162,16,1,1,0,0,0,,1795200590.118739,0
+f05_fix_X_r1,f05,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,164180,1175,127744,0,33,1,1,0,0,0,,1795182144.455083,0
+f05_fix_X_r2,f05,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,164082,1611,126976,0,52,1,1,0,0,0,,1795199667.794548,0
+f05_fix_X_r3,f05,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,7,220411,1673,198912,0,47,1,1,0,0,0,,1795218100.2666712,0
+f05_i_O_r1,f05,hs,hybrid,i,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,7,16,3856,194365,0.23208099999999998,59,1,1,0,0,0,,1795182089.5641868,0
+f05_i_O_r2,f05,hs,hybrid,i,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,7,16,3769,194487,0.2126054,38,1,1,0,0,0,,1795183319.331691,0
+f05_i_O_r3,f05,hs,hybrid,i,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,12,2858,141147,0.16417340000000002,44,1,1,0,0,0,,1795200596.049866,0
+f05_i_O_s1,f05,hs,hybrid,i,O,s1,claude-opus-5-5,1,user:ContainerKill | attractions:CPUStress,2,1,1,1,0,8,18,5030,241695,0.287131,65,1,1,0,0,0,,1795181108.7396219,0
+f05_i_O_s2,f05,hs,hybrid,i,O,s2,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,12,2686,138586,0.1613332,42,1,1,0,0,0,,1795181109.892237,0
+f05_i_S_r1,f05,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,user:DNSError | attractions:DNSError,2,1,1,0,0,4,10,2078,113350,0.054887000000000005,23,1,1,0,0,0,,1795182076.163331,0
+f05_i_S_r2,f05,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,0,0,4,10,1762,111336,0.04929760000000001,27,1,1,0,0,0,,1795183292.114958,0
+f05_i_S_r3,f05,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,user:PodFailure | attractions:PodFailure,2,1,1,0,0,5,12,1872,139386,0.058726600000000004,24,1,1,0,0,0,,1795200566.347556,0
+f05_i_S_s1,f05,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,12,2450,140759,0.0702839,25,1,1,0,0,0,,1795181086.1967008,0
+f05_i_S_s2,f05,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,4,10,1347,112834,0.045845399999999994,23,1,1,0,0,0,,1795181086.7564218,0
+f05_i_X_r1,f05,hs,hybrid,i,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,176758,1462,147712,0,41,1,1,0,0,0,,1795182103.1386921,0
+f05_i_X_r2,f05,hs,hybrid,i,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,203203,1829,169856,0,47,1,1,0,0,0,,1795199641.429108,0
+f05_i_X_r3,f05,hs,hybrid,i,X,r3,gpt-6.2-sol,1,user:ContainerKill | attractions:CPUStress,2,1,1,1,0,5,158980,1378,139008,0,37,1,1,0,0,0,,1795218083.5158122,0
+f05_i_X_s1,f05,hs,hybrid,i,X,s1,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,234092,1583,201600,0,45,1,1,0,0,0,,1795181111.6267772,0
+f05_i_X_s2,f05,hs,hybrid,i,X,s2,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,195796,1574,163328,0,62,1,1,0,0,0,,1795181115.149119,0
+f05_ii_O_r1,f05,hs,hybrid,ii,O,r1,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,14,4187,175134,0.2589188,58,1,1,0,0,0,,1795182095.408046,0
+f05_ii_O_r2,f05,hs,hybrid,ii,O,r2,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,14,4273,175667,0.25212140000000005,43,1,1,0,0,0,,1795183320.306012,0
+f05_ii_O_r3,f05,hs,hybrid,ii,O,r3,claude-opus-5-5,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,14,4103,172960,0.236852,61,1,1,0,0,0,,1795200606.3739011,0
+f05_ii_S_r1,f05,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,0,0,6,14,2631,159743,0.06616029999999999,30,1,1,0,0,0,,1795182077.631664,0
+f05_ii_S_r2,f05,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,0,0,3,8,1454,86361,0.038064100000000003,16,1,1,0,0,0,,1795183305.6391292,0
+f05_ii_S_r3,f05,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,attractions:PodFailure | user:PodFailure,2,1,1,0,0,4,10,1718,110242,0.0455402,18,1,1,0,0,0,,1795200569.59504,0
+f05_ii_X_r1,f05,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,180790,1432,151552,0,52,1,1,0,0,0,,1795182107.975709,0
+f05_ii_X_r2,f05,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,user:ContainerKill,1,1,0,0,0,7,254396,1801,225536,0,48,1,1,0,0,0,,1795199642.771476,0
+f05_ii_X_r3,f05,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,user:ContainerKill | attractions:CPUStress,2,1,1,1,0,6,228735,1700,187520,0,47,1,1,0,0,0,,1795218099.096162,0
+f05_iii_O_r1,f05,hs,hybrid,iii,O,r1,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,4,10,2020,111209,0.1111858,30,1,1,0,0,0,,1795182096.373951,0
+f05_iii_O_r2,f05,hs,hybrid,iii,O,r2,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,4,10,1983,111334,0.1082708,21,1,1,0,0,0,,1795183321.2624571,0
+f05_iii_O_r3,f05,hs,hybrid,iii,O,r3,claude-opus-5-5,1,user:PodFailure,1,1,0,0,0,3,8,1601,88145,0.105089,28,1,1,0,0,0,,1795200607.167708,0
+f05_iii_S_r1,f05,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,591,63440,0.022974,9,1,1,0,0,0,,1795182080.980744,0
+f05_iii_S_r2,f05,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,560,63426,0.023358599999999997,9,1,1,0,0,0,,1795183306.115241,0
+f05_iii_S_r3,f05,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,user:PodFailure,1,1,0,0,0,2,6,595,63429,0.0228369,9,1,1,0,0,0,,1795200587.301606,0
+f05_iii_X_r1,f05,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,attractions:CPUStress | user:PodFailure,2,1,1,1,0,5,165956,1328,135680,0,37,1,1,0,0,0,,1795182126.124099,0
+f05_iii_X_r2,f05,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,5,160068,1196,139008,0,37,1,1,0,0,0,,1795199663.1930869,0
+f05_iii_X_r3,f05,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,user:PodFailure | attractions:CPUStress,2,1,1,1,0,6,199618,1459,161664,0,42,1,1,0,0,0,,1795218100.05201,0
+f06_fix_O_r1,f06,hs,hybrid,fix,O,r1,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3288,168495,0.187539,37,1,1,0,0,0,,1795182171.787997,0
+f06_fix_O_r2,f06,hs,hybrid,fix,O,r2,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2899,176067,0.2098574,35,1,1,0,0,0,,1795183362.941681,0
+f06_fix_O_r3,f06,hs,hybrid,fix,O,r3,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,8,18,3270,222814,0.1932428,64,1,1,0,0,0,,1795200641.87677,0
+f06_fix_S_r1,f06,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1248,85517,0.0395557,14,1,1,0,0,0,,1795182160.069119,0
+f06_fix_S_r2,f06,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1695,109340,0.048016,26,1,1,0,0,0,,1795183349.4883819,0
+f06_fix_S_r3,f06,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1419,85347,0.0430407,15,1,1,0,0,0,,1795200635.299649,0
+f06_fix_X_r1,f06,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,139980,973,115584,0,29,1,1,0,0,0,,1795182207.2722828,0
+f06_fix_X_r2,f06,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,131364,796,92032,0,24,1,1,0,0,0,,1795199690.546331,0
+f06_fix_X_r3,f06,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,129397,990,93824,0,29,1,1,0,0,0,,1795218142.463764,0
+f06_i_O_r1,f06,hs,hybrid,i,O,r1,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3097,170762,0.1793404,44,1,1,0,0,0,,1795182163.109596,0
+f06_i_O_r2,f06,hs,hybrid,i,O,r2,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3296,168657,0.1923394,37,1,1,0,0,0,,1795183356.145499,0
+f06_i_O_r3,f06,hs,hybrid,i,O,r3,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,3335,139834,0.1964268,53,1,1,0,0,0,,1795200636.115103,0
+f06_i_O_s1,f06,hs,hybrid,i,O,s1,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,8,18,4584,231448,0.2432576,62,1,1,0,0,0,,1795181148.0761669,0
+f06_i_O_s2,f06,hs,hybrid,i,O,s2,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2589,141363,0.1488206,44,1,1,0,0,0,,1795181151.50722,0
+f06_i_S_r1,f06,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,1895,109871,0.051845100000000005,20,1,1,0,0,0,,1795182148.46082,0
+f06_i_S_r2,f06,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,1882,134340,0.055617999999999994,27,1,1,0,0,0,,1795183322.5334668,0
+f06_i_S_r3,f06,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,geo:PodKill | profile:PodKill | rate:PodKill,3,1,1,0,1,3,8,1719,87665,0.043332499999999996,18,1,1,0,0,0,,1795200610.881611,0
+f06_i_S_s1,f06,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,6,14,2401,161012,0.0681152,33,1,1,0,0,0,,1795181120.843976,0
+f06_i_S_s2,f06,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,geo:PodKill | profile:PodKill,2,1,1,0,0,4,10,1554,114718,0.0523398,22,1,1,0,0,0,,1795181126.17059,0
+f06_i_X_r1,f06,hs,hybrid,i,X,r1,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,172357,1107,146176,0,34,1,1,0,0,0,,1795182173.8426828,0
+f06_i_X_r2,f06,hs,hybrid,i,X,r2,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,155863,1133,124160,0,33,1,1,0,0,0,,1795199674.4146051,0
+f06_i_X_r3,f06,hs,hybrid,i,X,r3,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,133336,1048,102272,0,29,1,1,0,0,0,,1795218119.4043388,0
+f06_i_X_s1,f06,hs,hybrid,i,X,s1,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,172778,1418,141056,0,48,1,1,0,0,0,,1795181153.953954,0
+f06_i_X_s2,f06,hs,hybrid,i,X,s2,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,206674,1644,182144,0,48,1,1,0,0,0,,1795181156.7895,0
+f06_ii_O_r1,f06,hs,hybrid,ii,O,r1,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,9,20,4255,275856,0.26530319999999996,50,1,1,0,0,0,,1795182163.6613739,0
+f06_ii_O_r2,f06,hs,hybrid,ii,O,r2,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3401,171081,0.2131722,37,1,1,0,0,0,,1795183357.173059,0
+f06_ii_O_r3,f06,hs,hybrid,ii,O,r3,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3613,175818,0.2319916,62,1,1,0,0,0,,1795200639.476864,0
+f06_ii_S_r1,f06,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,1438,109502,0.043210200000000004,18,1,1,0,0,0,,1795182153.308085,0
+f06_ii_S_r2,f06,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,geo:PodKill | profile:PodKill,2,1,1,0,0,7,16,2450,185088,0.0681008,32,1,1,0,0,0,,1795183338.435074,0
+f06_ii_S_r3,f06,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,geo:PodKill | profile:PodKill,2,1,1,0,0,6,14,2287,161728,0.0660828,25,1,1,0,0,0,,1795200614.464997,0
+f06_ii_X_r1,f06,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,208817,1274,162304,0,38,1,1,0,0,0,,1795182177.3020768,0
+f06_ii_X_r2,f06,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,137051,961,111744,0,33,1,1,0,0,0,,1795199688.349369,0
+f06_ii_X_r3,f06,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,8,249434,2563,208000,0,67,1,1,0,0,0,,1795218120.678188,0
+f06_iii_O_r1,f06,hs,hybrid,iii,O,r1,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3061,162022,0.1662484,34,1,1,0,0,0,,1795182168.8832068,0
+f06_iii_O_r2,f06,hs,hybrid,iii,O,r2,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2826,144779,0.16337980000000002,32,1,1,0,0,0,,1795183358.0592709,0
+f06_iii_O_r3,f06,hs,hybrid,iii,O,r3,claude-opus-5-5,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3302,164123,0.1838806,52,1,1,0,0,0,,1795200639.793644,0
+f06_iii_S_r1,f06,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,2,6,620,62457,0.026897700000000004,8,1,1,0,0,0,,1795182155.773798,0
+f06_iii_S_r2,f06,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,2,6,718,63458,0.023601800000000003,13,1,1,0,0,0,,1795183342.672168,0
+f06_iii_S_r3,f06,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,896,84999,0.0348919,13,1,1,0,0,0,,1795200628.867414,0
+f06_iii_X_r1,f06,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,130511,856,100480,0,26,1,1,0,0,0,,1795182202.9235358,0
+f06_iii_X_r2,f06,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,5,160085,1107,139520,0,32,1,1,0,0,0,,1795199688.5985742,0
+f06_iii_X_r3,f06,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,geo:PodFailure | profile:PodFailure,2,1,1,1,0,4,128412,938,99200,0,28,1,1,0,0,0,,1795218120.8878772,0
+f07_fix_O_r1,f07,hs,hybrid,fix,O,r1,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,2526,113913,0.1499666,27,1,1,0,0,0,,1795182229.423326,0
+f07_fix_O_r2,f07,hs,hybrid,fix,O,r2,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,2343,120203,0.16291660000000002,26,1,1,0,0,0,,1795183399.372311,0
+f07_fix_O_r3,f07,hs,hybrid,fix,O,r3,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,3,8,1804,86632,0.1737664,33,1,1,0,0,0,,1795200695.35247,0
+f07_fix_S_r1,f07,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,search:NetworkDelay | recommendation:PodKill,2,1,1,0,0,3,8,1537,85159,0.043445899999999996,20,1,1,0,0,0,,1795182215.5557811,0
+f07_fix_S_r2,f07,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,2,6,668,63523,0.0236523,14,1,1,0,0,0,,1795183393.618154,0
+f07_fix_S_r3,f07,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,search:NetworkDelay | recommendation:PodKill,2,1,1,0,0,4,10,1477,109565,0.048750499999999995,17,1,1,0,0,0,,1795200678.6949608,0
+f07_fix_X_r1,f07,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,136606,989,110464,0,35,1,1,0,0,0,,1795182260.646422,0
+f07_fix_X_r2,f07,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,130731,1274,109952,0,36,1,1,0,0,0,,1795199720.199095,0
+f07_fix_X_r3,f07,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,5,133805,966,100736,0,27,1,1,0,0,0,,1795218148.782503,0
+f07_i_O_r1,f07,hs,hybrid,i,O,r1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,7,16,4120,192941,0.20292420000000003,43,1,1,0,0,0,,1795182222.362656,0
+f07_i_O_r2,f07,hs,hybrid,i,O,r2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,3370,144694,0.19856279999999998,36,1,1,0,0,0,,1795183394.578808,0
+f07_i_O_r3,f07,hs,hybrid,i,O,r3,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2772,144323,0.1574006,46,1,1,0,0,0,,1795200685.248412,0
+f07_i_O_s1,f07,hs,hybrid,i,O,s1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2360,140655,0.160603,36,1,1,0,0,0,,1795181194.15241,0
+f07_i_O_s2,f07,hs,hybrid,i,O,s2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,3121,142158,0.1952516,44,1,1,0,0,0,,1795181195.501567,0
+f07_i_S_r1,f07,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,recommendation:ContainerKill | rate:NetworkDelay,2,1,1,0,0,4,10,1886,112679,0.052367899999999995,21,1,1,0,0,0,,1795182208.029519,0
+f07_i_S_r2,f07,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,3,8,1572,86674,0.047859399999999996,25,1,1,0,0,0,,1795183370.224944,0
+f07_i_S_r3,f07,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,recommendation:PodKill | rate:HTTPResponseDelay,2,1,1,0,0,4,10,1946,111486,0.05549660000000001,21,1,1,0,0,0,,1795200650.2136729,0
+f07_i_S_s1,f07,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,recommendation:PodKill | search:NetworkDelay,2,1,1,0,0,4,10,1901,109721,0.0470461,24,1,1,0,0,0,,1795181174.129469,0
+f07_i_S_s2,f07,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,rate:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,3,8,1742,86627,0.0455387,17,1,1,0,0,0,,1795181176.7381032,0
+f07_i_X_r1,f07,hs,hybrid,i,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,193787,1377,161408,0,38,1,1,0,0,0,,1795182235.459456,0
+f07_i_X_r2,f07,hs,hybrid,i,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,7,256576,1936,214784,0,52,1,1,0,0,0,,1795199700.0579221,0
+f07_i_X_r3,f07,hs,hybrid,i,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,181979,1299,152832,0,59,1,1,0,0,0,,1795218146.471593,0
+f07_i_X_s1,f07,hs,hybrid,i,X,s1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,229092,1691,198784,0,46,1,1,0,0,0,,1795181197.9117079,0
+f07_i_X_s2,f07,hs,hybrid,i,X,s2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,7,307738,1761,269568,0,49,1,1,0,0,0,,1795181202.092494,0
+f07_ii_O_r1,f07,hs,hybrid,ii,O,r1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,3180,148871,0.19351020000000002,35,1,1,0,0,0,,1795182226.054655,0
+f07_ii_O_r2,f07,hs,hybrid,ii,O,r2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,14,2817,180704,0.24331280000000002,32,1,1,0,0,0,,1795183395.5799181,0
+f07_ii_O_r3,f07,hs,hybrid,ii,O,r3,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2765,143388,0.1848736,43,1,1,0,0,0,,1795200688.9731672,0
+f07_ii_S_r1,f07,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,rate:NetworkDelay | recommendation:PodKill,2,1,1,0,0,3,8,1664,86411,0.0442051,17,1,1,0,0,0,,1795182208.822464,0
+f07_ii_S_r2,f07,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,rate:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,3,8,1694,87167,0.0470887,25,1,1,0,0,0,,1795183375.7855868,0
+f07_ii_S_r3,f07,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,rate:NetworkDelay,1,1,0,0,0,4,10,1462,111091,0.0463451,17,1,1,0,0,0,,1795200667.8158898,0
+f07_ii_X_r1,f07,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,204266,1757,156928,0,49,1,1,0,0,0,,1795182236.171093,0
+f07_ii_X_r2,f07,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,218853,1485,182144,0,43,1,1,0,0,0,,1795199707.467289,0
+f07_ii_X_r3,f07,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,177031,1436,150528,0,39,1,1,0,0,0,,1795218147.4856162,0
+f07_iii_O_r1,f07,hs,hybrid,iii,O,r1,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,5,12,2941,135243,0.2050766,33,1,1,0,0,0,,1795182228.863408,0
+f07_iii_O_r2,f07,hs,hybrid,iii,O,r2,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,5,12,2478,144647,0.1783774,28,1,1,0,0,0,,1795183397.549746,0
+f07_iii_O_r3,f07,hs,hybrid,iii,O,r3,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,6,14,2647,166707,0.1916334,50,1,1,0,0,0,,1795200692.246927,0
+f07_iii_S_r1,f07,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,1,4,446,40516,0.021503599999999998,8,1,1,0,0,0,,1795182213.881334,0
+f07_iii_S_r2,f07,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,1,4,407,41501,0.0197001,9,1,1,0,0,0,,1795183390.0657642,0
+f07_iii_S_r3,f07,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,2,6,643,62491,0.0272031,8,1,1,0,0,0,,1795200670.910076,0
+f07_iii_X_r1,f07,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,recommendation:PodFailure,1,0,1,1,0,4,147813,915,119936,0,28,1,1,0,0,0,,1795182256.9386828,0
+f07_iii_X_r2,f07,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | search:NetworkDelay,2,1,1,1,0,4,115555,892,91648,0,26,1,1,0,0,0,,1795199714.461223,0
+f07_iii_X_r3,f07,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | search:NetworkDelay,2,1,1,1,0,4,135456,999,114560,0,29,1,1,0,0,0,,1795218148.5754051,0
+f08_fix_O_r1,f08,hs,hybrid,fix,O,r1,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2726,139422,0.1953004,30,1,1,0,0,0,,1795182285.6435032,0
+f08_fix_O_r2,f08,hs,hybrid,fix,O,r2,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2740,144800,0.207504,32,1,1,0,0,0,,1795183430.289078,0
+f08_fix_O_r3,f08,hs,hybrid,fix,O,r3,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2965,172741,0.2138002,51,1,1,0,0,0,,1795200733.426496,0
+f08_fix_S_r1,f08,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,1994,116802,0.0869162,23,1,1,0,0,0,,1795182278.487083,0
+f08_fix_S_r2,f08,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2756,159209,0.06562889999999999,39,1,1,0,0,0,,1795183425.406257,0
+f08_fix_S_r3,f08,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,rate:PodFailure,1,1,0,0,0,3,8,1725,86030,0.047289000000000005,18,1,1,0,0,0,,1795200727.258558,0
+f08_fix_X_r1,f08,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,6,213211,1369,158848,0,37,1,1,0,0,0,,1795182316.129206,0
+f08_fix_X_r2,f08,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,130190,864,105600,0,28,1,1,0,0,0,,1795199750.333906,0
+f08_fix_X_r3,f08,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,132974,869,92800,0,27,1,1,0,0,0,,1795218186.2826722,0
+f08_i_O_r1,f08,hs,hybrid,i,O,r1,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,3672,145238,0.20280759999999998,36,1,1,0,0,0,,1795182284.4577768,0
+f08_i_O_r2,f08,hs,hybrid,i,O,r2,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,3280,154441,0.2678802,32,1,1,0,0,0,,1795183425.819117,0
+f08_i_O_r3,f08,hs,hybrid,i,O,r3,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,2266,114979,0.12898779999999999,40,1,1,0,0,0,,1795200728.3041909,0
+f08_i_O_s1,f08,hs,hybrid,i,O,s1,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,3678,171675,0.210719,56,1,1,0,0,0,,1795181220.360874,0
+f08_i_O_s2,f08,hs,hybrid,i,O,s2,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2293,141269,0.1362658,40,1,1,0,0,0,,1795181230.6444008,0
+f08_i_S_r1,f08,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,profile:PodKill | rate:PodKill,2,1,1,0,0,3,8,1639,89287,0.054950700000000005,17,1,1,0,0,0,,1795182261.914758,0
+f08_i_S_r2,f08,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,rate:PodKill | profile:PodKill,2,1,1,0,0,3,8,1606,88539,0.0451179,19,1,1,0,0,0,,1795183400.838454,0
+f08_i_S_r3,f08,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,rate:ContainerKill,1,1,0,0,0,5,12,2179,135375,0.0645075,26,1,1,0,0,0,,1795200701.625104,0
+f08_i_S_s1,f08,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,3,8,1483,88141,0.04452009999999999,16,1,1,0,0,0,,1795181204.752254,0
+f08_i_S_s2,f08,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2040,135268,0.0555548,30,1,1,0,0,0,,1795181209.958664,0
+f08_i_X_r1,f08,hs,hybrid,i,X,r1,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,180122,1291,152064,0,37,1,1,0,0,0,,1795182295.505891,0
+f08_i_X_r2,f08,hs,hybrid,i,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,6,201309,1575,163200,0,43,1,1,0,0,0,,1795199720.4457731,0
+f08_i_X_r3,f08,hs,hybrid,i,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,6,129530,1076,103296,0,29,1,1,0,0,0,,1795218172.119893,0
+f08_i_X_s1,f08,hs,hybrid,i,X,s1,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,4,140146,1011,105856,0,29,1,1,0,0,0,,1795181239.9348,0
+f08_i_X_s2,f08,hs,hybrid,i,X,s2,gpt-6.2-sol,1,rate:ContainerKill | profile:ContainerKill,2,1,1,0,0,6,210939,1285,169088,0,39,1,1,0,0,0,,1795181240.3735082,0
+f08_ii_O_r1,f08,hs,hybrid,ii,O,r1,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,2432,116512,0.1749104,25,1,1,0,0,0,,1795182284.709179,0
+f08_ii_O_r2,f08,hs,hybrid,ii,O,r2,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,7,16,4210,213423,0.24730860000000002,43,1,1,0,0,0,,1795183427.2514298,0
+f08_ii_O_r3,f08,hs,hybrid,ii,O,r3,claude-opus-5-5,1,rate:ContainerKill | profile:ContainerKill,2,1,1,0,0,5,12,3015,143406,0.20016520000000002,48,1,1,0,0,0,,1795200730.896683,0
+f08_ii_S_r1,f08,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,rate:PodKill | profile:PodKill,2,1,1,0,0,4,10,1870,110742,0.0523942,20,1,1,0,0,0,,1795182265.185096,0
+f08_ii_S_r2,f08,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,rate:PodFailure,1,1,0,0,0,5,12,2017,134944,0.0583044,23,1,1,0,0,0,,1795183407.2158191,0
+f08_ii_S_r3,f08,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,10,1930,110794,0.0521754,18,1,1,0,0,0,,1795200706.3134022,0
+f08_ii_X_r1,f08,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,5,169308,1281,136448,0,35,1,1,0,0,0,,1795182301.0947042,0
+f08_ii_X_r2,f08,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,4,131986,1032,93824,0,31,1,1,0,0,0,,1795199721.249086,0
+f08_ii_X_r3,f08,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:PodFailure,2,1,1,1,0,4,141058,1178,109440,0,32,1,1,0,0,0,,1795218176.12115,0
+f08_iii_O_r1,f08,hs,hybrid,iii,O,r1,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,6,14,2879,161937,0.16427139999999998,33,1,1,0,0,0,,1795182285.391115,0
+f08_iii_O_r2,f08,hs,hybrid,iii,O,r2,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,7,16,3267,188811,0.1652062,38,1,1,0,0,0,,1795183429.803251,0
+f08_iii_O_r3,f08,hs,hybrid,iii,O,r3,claude-opus-5-5,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,12,2459,138512,0.1542184,43,1,1,0,0,0,,1795200731.957108,0
+f08_iii_S_r1,f08,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,rate:PodFailure,1,1,0,0,0,2,6,584,62452,0.0265772,11,1,1,0,0,0,,1795182273.810944,0
+f08_iii_S_r2,f08,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,rate:PodFailure,1,1,0,0,0,2,6,640,63438,0.0246758,11,1,1,0,0,0,,1795183420.2882,0
+f08_iii_S_r3,f08,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,rate:PodFailure,1,1,0,0,0,2,6,603,62441,0.0267101,8,1,1,0,0,0,,1795200724.9346712,0
+f08_iii_X_r1,f08,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,5,160191,1101,133120,0,31,1,1,0,0,0,,1795182310.0804229,0
+f08_iii_X_r2,f08,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,135066,1089,112512,0,31,1,1,0,0,0,,1795199740.2916532,0
+f08_iii_X_r3,f08,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,rate:PodFailure | profile:PodFailure,2,1,1,1,0,4,126761,1111,106368,0,30,1,1,0,0,0,,1795218177.662035,0
+f09_fix_O_r1,f09,hs,hybrid,fix,O,r1,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,3,8,2101,88804,0.1829088,22,1,1,0,0,0,,1795182345.05918,0
+f09_fix_O_r2,f09,hs,hybrid,fix,O,r2,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,2754,122903,0.1839166,28,1,1,0,0,0,,1795183469.9255779,0
+f09_fix_O_r3,f09,hs,hybrid,fix,O,r3,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,2087,111775,0.19309500000000002,39,1,1,0,0,0,,1795200778.5902588,0
+f09_fix_S_r1,f09,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,6,14,2362,161212,0.0621692,24,1,1,0,0,0,,1795182336.480053,0
+f09_fix_S_r2,f09,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,2,6,652,64009,0.0254449,10,1,1,0,0,0,,1795183462.828573,0
+f09_fix_S_r3,f09,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,1954,111514,0.0510954,20,1,1,0,0,0,,1795200761.478944,0
+f09_fix_X_r1,f09,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,6,134426,1139,112256,0,31,1,1,0,0,0,,1795182370.823684,0
+f09_fix_X_r2,f09,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,148323,1077,100736,0,33,1,1,0,0,0,,1795199763.701662,0
+f09_fix_X_r3,f09,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | search:NetworkDelay,2,1,1,1,0,4,139937,1056,113536,0,29,1,1,0,0,0,,1795218207.582459,0
+f09_i_O_r1,f09,hs,hybrid,i,O,r1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,3320,150762,0.2159124,33,1,1,0,0,0,,1795182337.870116,0
+f09_i_O_r2,f09,hs,hybrid,i,O,r2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,4,10,2653,123188,0.2152096,30,1,1,0,0,0,,1795183464.804963,0
+f09_i_O_r3,f09,hs,hybrid,i,O,r3,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,14,3109,174387,0.20848139999999998,47,1,1,0,0,0,,1795200765.346211,0
+f09_i_O_s1,f09,hs,hybrid,i,O,s1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,3172,150295,0.24099500000000001,52,1,1,0,0,0,,1795181269.429857,0
+f09_i_O_s2,f09,hs,hybrid,i,O,s2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,14,3216,173802,0.2055044,52,1,1,0,0,0,,1795181270.668149,0
+f09_i_S_r1,f09,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,recommendation:ContainerKill | rate:NetworkDelay,2,1,1,0,0,5,12,1993,137092,0.05621120000000001,26,1,1,0,0,0,,1795182318.673645,0
+f09_i_S_r2,f09,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,rate:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,4,10,2016,110318,0.0494518,26,1,1,0,0,0,,1795183431.515106,0
+f09_i_S_r3,f09,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,rate:NetworkDelay,1,1,0,0,0,4,10,1847,111406,0.0500666,19,1,1,0,0,0,,1795200741.950242,0
+f09_i_S_s1,f09,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,recommendation:PodKill | rate:NetworkDelay,2,1,1,0,0,4,10,1923,110418,0.049159800000000003,27,1,1,0,0,0,,1795181243.815268,0
+f09_i_S_s2,f09,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,rate:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,3,8,1602,86473,0.0431593,20,1,1,0,0,0,,1795181251.1085172,0
+f09_i_X_r1,f09,hs,hybrid,i,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,200481,1606,171008,0,51,1,1,0,0,0,,1795182353.603742,0
+f09_i_X_r2,f09,hs,hybrid,i,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,10,235211,1882,169600,0,49,1,1,0,0,0,,1795199752.526761,0
+f09_i_X_r3,f09,hs,hybrid,i,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,209057,1453,176768,0,39,1,1,0,0,0,,1795218187.857719,0
+f09_i_X_s1,f09,hs,hybrid,i,X,s1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,193648,1458,157952,0,58,1,1,0,0,0,,1795181270.8179169,0
+f09_i_X_s2,f09,hs,hybrid,i,X,s2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,235545,1486,202624,0,41,1,1,0,0,0,,1795181270.919507,0
+f09_ii_O_r1,f09,hs,hybrid,ii,O,r1,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2646,143338,0.1804516,30,1,1,0,0,1,/tmp/q.py,1795182341.081089,0
+f09_ii_O_r2,f09,hs,hybrid,ii,O,r2,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2829,149285,0.20470899999999997,29,1,1,0,0,0,,1795183467.484786,0
+f09_ii_O_r3,f09,hs,hybrid,ii,O,r3,claude-opus-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,5,12,2600,142019,0.1835718,51,1,1,0,0,0,,1795200768.522419,0
+f09_ii_S_r1,f09,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,rate:NetworkDelay,1,1,0,0,0,3,8,1361,86006,0.038494600000000004,17,1,1,0,0,0,,1795182320.709952,0
+f09_ii_S_r2,f09,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,4,10,1547,111194,0.0473094,22,1,1,0,0,0,,1795183457.7772968,0
+f09_ii_S_r3,f09,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,rate:NetworkDelay,1,1,0,0,0,3,8,1450,86261,0.0375061,14,1,1,0,0,0,,1795200745.059104,0
+f09_ii_X_r1,f09,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,226757,1488,192896,0,41,1,1,0,0,0,,1795182360.7592268,0
+f09_ii_X_r2,f09,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,6,231485,1592,177024,0,53,1,1,0,0,0,,1795199752.599424,0
+f09_ii_X_r3,f09,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,recommendation:PodFailure | rate:NetworkDelay,2,1,1,1,0,7,293015,1658,246784,0,49,1,1,0,0,0,,1795218201.6107311,0
+f09_iii_O_r1,f09,hs,hybrid,iii,O,r1,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,7,16,3249,192958,0.1928996,38,1,1,0,0,0,,1795182341.9133818,0
+f09_iii_O_r2,f09,hs,hybrid,iii,O,r2,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,5,12,2739,142039,0.17237180000000002,31,1,1,0,0,0,,1795183468.1811898,0
+f09_iii_O_r3,f09,hs,hybrid,iii,O,r3,claude-opus-5-5,1,search:NetworkDelay | recommendation:PodFailure,2,1,1,1,0,6,14,2971,172579,0.20019179999999998,47,1,1,0,0,0,,1795200774.702996,0
+f09_iii_S_r1,f09,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,2,6,675,63726,0.027162600000000002,9,1,1,0,0,0,,1795182332.872423,0
+f09_iii_S_r2,f09,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,2,6,647,63465,0.023792500000000005,10,1,1,0,0,0,,1795183457.829162,0
+f09_iii_S_r3,f09,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,search:NetworkDelay,1,1,0,0,0,1,4,396,41501,0.0171221,6,1,1,0,0,0,,1795200759.624116,0
+f09_iii_X_r1,f09,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,recommendation:PodFailure | search:NetworkDelay,2,1,1,1,0,5,167225,1139,129280,0,33,1,1,0,0,0,,1795182366.630095,0
+f09_iii_X_r2,f09,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,recommendation:PodFailure | search:NetworkDelay,2,1,1,1,0,5,153726,1011,129536,0,30,1,1,0,0,0,,1795199756.0483909,0
+f09_iii_X_r3,f09,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,recommendation:PodFailure,1,0,1,1,0,4,145964,931,116352,0,26,1,1,0,0,0,,1795218205.164512,0
+f10_fix_O_r1,f10,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,5,12,3289,152495,0.22364699999999998,33,1,1,0,0,0,,1795182405.0980449,0
+f10_fix_O_r2,f10,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-user-service:DNSError,1,1,0,0,0,8,18,3938,247795,0.274743,40,1,1,0,0,0,,1795183501.297736,0
+f10_fix_O_r3,f10,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,5,12,3179,147257,0.20845539999999999,49,1,1,0,0,0,,1795200817.41437,0
+f10_fix_S_r1,f10,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1572,87182,0.0558182,23,1,1,0,0,0,,1795182399.66328,0
+f10_fix_S_r2,f10,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1518,87822,0.0448222,19,1,1,0,0,0,,1795183496.919698,0
+f10_fix_S_r3,f10,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1451,86817,0.0487757,17,1,1,0,0,0,,1795200796.722996,0
+f10_fix_X_r1,f10,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,15,614483,4024,535808,0,115,1,1,0,0,0,,1795182426.9014668,0
+f10_fix_X_r2,f10,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,11,494481,3466,439296,0,88,1,1,0,0,0,,1795199797.1796181,0
+f10_fix_X_r3,f10,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,10,345081,2296,261504,0,77,1,1,0,0,0,,1795218231.437421,0
+f10_i_O_r1,f10,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1915,90100,0.17777600000000002,21,1,1,0,0,0,,1795182401.406909,0
+f10_i_O_r2,f10,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,1979,118843,0.1474126,23,1,1,0,0,0,,1795183497.734993,0
+f10_i_O_r3,f10,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,2649,125557,0.22072340000000001,42,1,1,0,0,0,,1795200807.379308,0
+f10_i_O_s1,f10,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,2078,88782,0.12380440000000001,32,1,1,0,0,0,,1795181298.3510048,0
+f10_i_O_s2,f10,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1578,88226,0.1092212,25,1,1,0,0,0,,1795181299.662622,0
+f10_i_S_r1,f10,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1478,89048,0.0471888,19,1,1,0,0,0,,1795182371.221738,0
+f10_i_S_r2,f10,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,1606,111378,0.051185800000000004,28,1,1,0,0,0,,1795183472.903915,0
+f10_i_S_r3,f10,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1360,88679,0.045343900000000006,15,1,1,0,0,0,,1795200781.716505,0
+f10_i_S_s1,f10,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,1840,116265,0.0627185,21,1,1,0,0,0,,1795181276.8684,0
+f10_i_S_s2,f10,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1576,87548,0.0518708,20,1,1,0,0,0,,1795181279.879432,0
+f10_i_X_r1,f10,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,8,351949,2276,301184,0,63,1,1,0,0,0,,1795182406.796549,0
+f10_i_X_r2,f10,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,11,482330,3175,429824,0,86,1,1,0,0,0,,1795199771.8639722,0
+f10_i_X_r3,f10,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,10,406545,3032,349312,0,89,1,1,0,0,0,,1795218208.5792,0
+f10_i_X_s1,f10,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,11,458337,3858,421632,0,95,1,1,0,0,0,,1795181312.0918531,0
+f10_i_X_s2,f10,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,10,479862,3418,341632,0,90,1,1,0,0,0,,1795181321.661587,0
+f10_ii_O_r1,f10,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,5,12,2478,142463,0.17404459999999997,25,1,1,0,0,0,,1795182401.771878,0
+f10_ii_O_r2,f10,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,5,12,3228,147498,0.1991716,36,1,1,0,0,0,,1795183498.6718988,0
+f10_ii_O_r3,f10,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,2481,116100,0.160224,40,1,1,0,0,0,,1795200812.429054,0
+f10_ii_S_r1,f10,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,1556,109749,0.0478229,21,1,1,0,0,0,,1795182380.238796,0
+f10_ii_S_r2,f10,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1171,87503,0.0465003,19,1,1,0,0,0,,1795183479.881752,0
+f10_ii_S_r3,f10,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,3,8,1009,87498,0.0398998,10,1,1,0,0,0,,1795200784.899211,0
+f10_ii_X_r1,f10,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,5,176788,1356,142592,0,38,1,1,0,0,0,,1795182422.81411,0
+f10_ii_X_r2,f10,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,6,232546,1920,172160,0,50,1,1,0,0,0,,1795199778.46301,0
+f10_ii_X_r3,f10,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,9,356545,3237,315904,0,84,1,1,0,0,0,,1795218212.983177,0
+f10_iii_O_r1,f10,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,6,14,3605,169130,0.227414,44,1,1,0,0,0,,1795182402.1672661,0
+f10_iii_O_r2,f10,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-user-service:JVMLatency,1,0,1,1,0,4,10,2959,122126,0.2010932,34,1,1,0,0,0,,1795183499.5067148,0
+f10_iii_O_r3,f10,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-user-service:DNSError,1,1,0,0,0,4,10,2167,113263,0.14326460000000002,36,1,1,0,0,0,,1795200813.7895029,0
+f10_iii_S_r1,f10,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-user-service:DNSError,1,1,0,0,0,3,8,1147,86291,0.051087099999999996,17,1,1,0,0,0,,1795182389.9118562,0
+f10_iii_S_r2,f10,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-user-service:DNSError,1,1,0,0,0,2,6,631,63445,0.0278705,10,1,1,0,0,0,,1795183494.816051,0
+f10_iii_S_r3,f10,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-user-service:DNSError,1,1,0,0,0,3,8,946,85384,0.0360384,12,1,1,0,0,0,,1795200795.331121,0
+f10_iii_X_r1,f10,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,6,188448,1433,167296,0,41,1,1,0,0,0,,1795182422.921293,0
+f10_iii_X_r2,f10,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,7,246737,1614,211968,0,58,1,1,0,0,0,,1795199786.294594,0
+f10_iii_X_r3,f10,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-user-service:JVMLatency,1,0,1,1,0,8,319884,2212,275840,0,58,1,1,0,0,0,,1795218227.199021,0
+f11_fix_O_r1,f11,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:JVMLatency,2,1,1,0,0,6,14,3996,169362,0.21960839999999998,43,1,1,0,0,0,,1795182487.855736,0
+f11_fix_O_r2,f11,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,8,18,4396,238169,0.2383138,52,1,1,0,0,0,,1795183541.61413,0
+f11_fix_O_r3,f11,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkDelay,2,1,1,0,0,5,12,2708,144086,0.1772412,45,1,1,0,0,0,,1795200856.391837,0
+f11_fix_S_r1,f11,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,3,8,1279,85884,0.04271040000000001,24,1,1,0,0,0,,1795182464.257468,0
+f11_fix_S_r2,f11,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,3,8,957,86743,0.03475230000000001,19,1,1,0,0,0,,1795183531.925868,0
+f11_fix_S_r3,f11,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,3,8,1042,85889,0.040392899999999995,16,1,1,0,0,0,,1795200849.296064,0
+f11_fix_X_r1,f11,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,7,227607,2170,181248,0,57,1,1,0,0,0,,1795182532.877595,0
+f11_fix_X_r2,f11,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,7,236776,2124,207104,0,75,1,1,0,0,0,,1795199844.315079,0
+f11_fix_X_r3,f11,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,5,175145,1245,145152,0,39,1,1,0,0,0,,1795218295.481463,0
+f11_i_O_r1,f11,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,10,22,6936,344232,0.42148640000000004,74,1,1,0,0,0,,1795182468.843976,0
+f11_i_O_r2,f11,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-food-service:NetworkLoss,1,0,1,1,0,8,18,4413,251733,0.2873346,46,1,1,0,0,0,,1795183533.9448051,0
+f11_i_O_r3,f11,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:JVMLatency,2,1,1,0,0,10,22,5885,323545,0.331441,86,1,1,0,0,0,,1795200850.258641,0
+f11_i_O_s1,f11,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,7,16,4175,205475,0.228611,60,1,1,0,0,0,,1795181328.474377,0
+f11_i_O_s2,f11,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-food-service:NetworkLoss,1,0,1,1,0,12,26,7919,405175,0.431463,119,1,1,0,0,0,,1795181330.3858922,0
+f11_i_S_r1,f11,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,12,26,5038,354222,0.1462502,63,1,1,0,0,0,,1795182438.539486,0
+f11_i_S_r2,f11,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-food-service:NetworkDelay | ts-preserve-service:JVMLatency,2,1,1,0,0,5,12,2361,141470,0.073577,35,1,1,0,0,0,,1795183505.357674,0
+f11_i_S_r3,f11,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,3,8,1352,87150,0.045447,19,1,1,0,0,0,,1795200819.253006,0
+f11_i_S_s1,f11,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,3,8,1461,89234,0.0524574,18,1,1,0,0,0,,1795181322.688253,0
+f11_i_S_s2,f11,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,7,16,2691,193824,0.1048724,29,1,1,0,0,0,,1795181324.920344,0
+f11_i_X_r1,f11,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,10,418059,2596,378240,0,90,1,1,0,0,0,,1795182498.850989,0
+f11_i_X_r2,f11,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,8,323836,2452,270976,0,64,1,1,0,0,0,,1795199801.950737,0
+f11_i_X_r3,f11,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,8,325071,2245,251776,0,59,1,1,0,0,0,,1795218236.353801,0
+f11_i_X_s1,f11,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,7,266639,2463,224768,0,67,1,1,0,0,0,,1795181340.3046699,0
+f11_i_X_s2,f11,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,10,446593,3060,402560,0,116,1,1,0,0,0,,1795181354.204103,0
+f11_ii_O_r1,f11,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-food-service:NetworkDelay,1,0,1,0,0,8,18,5682,262947,0.3470454,62,1,1,0,0,0,,1795182470.267379,0
+f11_ii_O_r2,f11,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,15,32,10179,594662,0.6423684,110,1,1,0,0,0,,1795183534.543638,0
+f11_ii_O_r3,f11,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkDelay,2,1,1,0,0,8,18,5454,255103,0.3132526,83,1,1,0,0,0,,1795200852.093459,0
+f11_ii_S_r1,f11,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-food-service:JVMLatency,1,0,1,0,0,7,16,2844,199116,0.0846476,30,1,1,0,0,0,,1795182446.086379,0
+f11_ii_S_r2,f11,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency | ts-food-service:JVMLatency,2,1,1,0,0,4,10,2112,115110,0.064251,26,1,1,0,0,0,,1795183516.097791,0
+f11_ii_S_r3,f11,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-food-service:CPUStress,1,0,1,0,0,5,12,2225,142579,0.0709919,32,1,1,0,0,0,,1795200822.087651,0
+f11_ii_X_r1,f11,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkDelay,2,1,1,0,0,9,324282,2432,277760,0,68,1,1,0,0,0,,1795182501.9552882,0
+f11_ii_X_r2,f11,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,7,284939,2089,245760,0,59,1,1,0,0,0,,1795199806.1023629,0
+f11_ii_X_r3,f11,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,8,410201,2454,360320,0,94,1,1,0,0,0,,1795218250.7924402,0
+f11_iii_O_r1,f11,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,4,10,2177,117877,0.1464194,22,1,1,0,0,0,,1795182476.5233028,0
+f11_iii_O_r2,f11,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,6,14,3883,169233,0.20094659999999998,43,1,1,0,0,0,,1795183540.922448,0
+f11_iii_O_r3,f11,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,3,8,1540,85953,0.09691060000000001,27,1,1,0,0,0,,1795200854.518166,0
+f11_iii_S_r1,f11,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,1,4,418,40522,0.0213162,8,1,1,0,0,0,,1795182460.628344,0
+f11_iii_S_r2,f11,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,2,6,740,63513,0.0243513,11,1,1,0,0,0,,1795183521.224908,0
+f11_iii_S_r3,f11,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-preserve-service:JVMLatency,1,1,0,0,0,2,6,714,62524,0.0283724,18,1,1,0,0,0,,1795200838.557257,0
+f11_iii_X_r1,f11,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkDelay,2,1,1,0,0,9,283402,2476,258816,0,68,1,1,0,0,0,,1795182530.928373,0
+f11_iii_X_r2,f11,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,7,230217,1898,207104,0,51,1,1,0,0,0,,1795199828.423465,0
+f11_iii_X_r3,f11,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-preserve-service:JVMLatency | ts-food-service:NetworkLoss,2,1,1,1,0,6,209670,1774,174720,0,49,1,1,0,0,0,,1795218285.34018,0
+f12_fix_O_r1,f12,hs,hybrid,fix,O,r1,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,9,20,5002,309173,0.3408026,52,1,1,0,0,0,,1795182589.321901,0
+f12_fix_O_r2,f12,hs,hybrid,fix,O,r2,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,10,22,5068,312416,0.3131072,52,1,1,0,0,0,,1795183598.930014,0
+f12_fix_O_r3,f12,hs,hybrid,fix,O,r3,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,13,28,6645,435885,0.388549,102,1,1,0,0,0,,1795200910.0027158,0
+f12_fix_S_r1,f12,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,3,8,1666,86367,0.0399727,20,1,1,0,0,0,,1795182569.379873,0
+f12_fix_S_r2,f12,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,5,12,1886,134765,0.055872500000000005,27,1,1,0,0,0,,1795183579.825233,0
+f12_fix_S_r3,f12,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,4,10,2186,110885,0.0544765,23,1,1,0,0,0,,1795200886.82322,0
+f12_fix_X_r1,f12,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,263703,1718,219136,0,46,1,1,0,0,0,,1795182634.914721,0
+f12_fix_X_r2,f12,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,5,190955,1272,152320,0,37,1,1,0,0,0,,1795199879.549,0
+f12_fix_X_r3,f12,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,245396,1534,194176,0,61,1,1,0,0,0,,1795218334.454686,0
+f12_i_O_r1,f12,hs,hybrid,i,O,r1,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,8,18,5876,256200,0.324088,65,1,1,0,0,0,,1795182569.695474,0
+f12_i_O_r2,f12,hs,hybrid,i,O,r2,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,8,18,4615,249380,0.281288,47,1,1,0,0,0,,1795183581.575265,0
+f12_i_O_r3,f12,hs,hybrid,i,O,r3,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,16,3923,205594,0.21999480000000002,66,1,1,0,0,0,,1795200890.918367,0
+f12_i_O_s1,f12,hs,hybrid,i,O,s1,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,11,24,6097,348921,0.34883620000000004,101,1,1,0,0,0,,1795181407.138035,0
+f12_i_O_s2,f12,hs,hybrid,i,O,s2,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,9,20,5497,282798,0.3061876,81,1,1,0,0,0,,1795181407.2531562,0
+f12_i_S_r1,f12,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,rate:PodKill | profile:PodKill,2,1,1,0,0,5,12,1813,134412,0.05021919999999999,26,1,1,0,0,0,,1795182541.965663,0
+f12_i_S_r2,f12,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,profile:PodKill | rate:NetworkPartition,2,1,1,1,0,7,16,3380,189792,0.0881112,40,1,1,0,0,0,,1795183541.73598,0
+f12_i_S_r3,f12,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,profile:PodKill | rate:NetworkLoss,2,1,1,0,0,5,12,2134,136862,0.061810199999999996,30,1,1,0,0,0,,1795200865.366443,0
+f12_i_S_s1,f12,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,rate:PodKill | profile:PodKill,2,1,1,0,0,3,8,1670,86376,0.0420296,17,1,1,0,0,0,,1795181388.879016,0
+f12_i_S_s2,f12,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,5,12,2431,139997,0.0768817,28,1,1,0,0,0,,1795181406.416971,0
+f12_i_X_r1,f12,hs,hybrid,i,X,r1,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,258861,1641,198656,0,47,1,1,0,0,0,,1795182590.102695,0
+f12_i_X_r2,f12,hs,hybrid,i,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,10,245740,1654,202368,0,43,1,1,0,0,0,,1795199858.2068129,0
+f12_i_X_r3,f12,hs,hybrid,i,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,221149,1635,169344,0,44,1,1,0,0,0,,1795218297.217797,0
+f12_i_X_s1,f12,hs,hybrid,i,X,s1,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,215665,1523,182400,0,43,1,1,0,0,0,,1795181412.012107,0
+f12_i_X_s2,f12,hs,hybrid,i,X,s2,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,264140,1876,227584,0,85,1,1,0,0,0,,1795181434.70127,0
+f12_ii_O_r1,f12,hs,hybrid,ii,O,r1,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,9,20,4407,298319,0.33267579999999997,45,1,1,0,0,0,,1795182589.060842,0
+f12_ii_O_r2,f12,hs,hybrid,ii,O,r2,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,8,18,4882,244132,0.29585839999999997,49,1,1,0,0,0,,1795183584.081402,0
+f12_ii_O_r3,f12,hs,hybrid,ii,O,r3,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,11,24,6204,367491,0.37266619999999995,95,1,1,0,0,0,,1795200895.0262651,0
+f12_ii_S_r1,f12,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,profile:PodFailure | rate:PodKill,2,1,1,0,0,4,10,2017,112274,0.0580614,27,1,1,0,0,0,,1795182542.730617,0
+f12_ii_S_r2,f12,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,profile:PodKill | rate:PodKill,2,1,1,0,0,5,12,1831,136716,0.055361600000000004,26,1,1,0,0,0,,1795183551.4675992,0
+f12_ii_S_r3,f12,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,3,8,1628,87052,0.042313199999999995,20,1,1,0,0,0,,1795200866.300235,0
+f12_ii_X_r1,f12,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,272586,1733,224256,0,57,1,1,0,0,0,,1795182598.939969,0
+f12_ii_X_r2,f12,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,217593,1693,168320,0,46,1,1,0,0,0,,1795199865.086056,0
+f12_ii_X_r3,f12,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,219636,1686,172672,0,49,1,1,0,0,0,,1795218297.496535,0
+f12_iii_O_r1,f12,hs,hybrid,iii,O,r1,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,8,18,4974,228871,0.25319820000000004,56,1,1,0,0,0,,1795182589.197807,0
+f12_iii_O_r2,f12,hs,hybrid,iii,O,r2,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,16,4513,213271,0.2630022,51,1,1,0,0,0,,1795183593.483828,0
+f12_iii_O_r3,f12,hs,hybrid,iii,O,r3,claude-opus-5-5,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,9,20,5102,284662,0.3071724,79,1,1,0,0,0,,1795200901.6909068,0
+f12_iii_S_r1,f12,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,profile:PodFailure | rate:PodFailure,2,1,1,0,0,3,8,1184,85996,0.0338676,22,1,1,0,0,0,,1795182567.555595,0
+f12_iii_S_r2,f12,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,4,10,1524,109805,0.0424045,21,1,1,0,0,0,,1795183577.4416032,0
+f12_iii_S_r3,f12,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,profile:PodFailure,1,1,0,0,0,2,6,713,63573,0.0265993,9,1,1,0,0,0,,1795200881.470352,0
+f12_iii_X_r1,f12,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,7,262710,1938,207360,0,53,1,1,0,0,0,,1795182633.783552,0
+f12_iii_X_r2,f12,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,206494,1506,176512,0,42,1,1,0,0,0,,1795199865.647785,0
+f12_iii_X_r3,f12,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,profile:PodFailure | rate:NetworkPartition,2,1,1,1,0,6,259779,1533,212096,0,46,1,1,0,0,0,,1795218308.288985,0
+f13_fix_O_r1,f13,hs,hybrid,fix,O,r1,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,2025,113714,0.1181628,23,1,1,0,0,0,,1795182673.922224,0
+f13_fix_O_r2,f13,hs,hybrid,fix,O,r2,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1809,115282,0.12254839999999999,21,1,1,0,0,0,,1795183650.5642,0
+f13_fix_O_r3,f13,hs,hybrid,fix,O,r3,claude-opus-5-5,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,7,16,3486,211776,0.23034719999999997,59,1,1,0,0,0,,1795200988.469384,0
+f13_fix_S_r1,f13,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1358,87072,0.0548312,13,1,1,0,0,0,,1795182653.994791,0
+f13_fix_S_r2,f13,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1603,111174,0.044703400000000004,23,1,1,0,0,0,,1795183633.228528,0
+f13_fix_S_r3,f13,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,985,86612,0.0341552,23,1,1,0,0,0,,1795200965.5071008,0
+f13_fix_X_r1,f13,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,176239,1085,141824,0,33,1,1,0,0,0,,1795182686.513388,0
+f13_fix_X_r2,f13,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,178925,1240,131584,0,35,1,1,0,0,0,,1795199910.8544488,0
+f13_fix_X_r3,f13,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,164854,1171,124160,0,36,1,1,0,0,0,,1795218346.426377,0
+f13_i_O_r1,f13,hs,hybrid,i,O,r1,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,5,12,2366,140977,0.16493939999999999,27,1,1,0,0,0,,1795182654.902143,0
+f13_i_O_r2,f13,hs,hybrid,i,O,r2,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,8,18,4164,240393,0.2870946,45,1,1,0,0,0,,1795183639.922674,0
+f13_i_O_r3,f13,hs,hybrid,i,O,r3,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,2127,113139,0.12404780000000001,33,1,1,0,0,0,,1795200965.76367,0
+f13_i_O_s1,f13,hs,hybrid,i,O,s1,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,5,12,2759,139589,0.1552418,44,1,1,0,0,0,,1795181470.632396,0
+f13_i_O_s2,f13,hs,hybrid,i,O,s2,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1792,88676,0.10584719999999999,27,1,1,0,0,0,,1795181470.6528351,0
+f13_i_S_r1,f13,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,geo:PodKill,1,1,0,0,0,3,8,1618,88334,0.0494734,16,1,1,0,0,0,,1795182637.610989,0
+f13_i_S_r2,f13,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1072,87860,0.038054000000000004,18,1,1,0,0,0,,1795183607.069267,0
+f13_i_S_r3,f13,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1736,110514,0.0499954,30,1,1,0,0,0,,1795200935.754085,0
+f13_i_S_s1,f13,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1641,112082,0.046450200000000004,22,1,1,0,0,0,,1795181449.031541,0
+f13_i_S_s2,f13,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,geo:ContainerKill,1,1,0,0,0,5,12,2210,135661,0.05663410000000001,28,1,1,0,0,0,,1795181454.825411,0
+f13_i_X_r1,f13,hs,hybrid,i,X,r1,gpt-6.2-sol,1,geo:PodFailure,1,1,0,0,0,5,151751,1156,111616,0,36,1,1,0,0,0,,1795182681.1738172,0
+f13_i_X_r2,f13,hs,hybrid,i,X,r2,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,190462,1238,148224,0,34,1,1,0,0,0,,1795199885.3773282,0
+f13_i_X_r3,f13,hs,hybrid,i,X,r3,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,178369,1449,153088,0,39,1,1,0,0,0,,1795218334.703528,0
+f13_i_X_s1,f13,hs,hybrid,i,X,s1,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,163155,1440,129024,0,39,1,1,0,0,0,,1795181482.954188,0
+f13_i_X_s2,f13,hs,hybrid,i,X,s2,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,205523,1692,172416,0,47,1,1,0,0,0,,1795181488.3782048,0
+f13_ii_O_r1,f13,hs,hybrid,ii,O,r1,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,7,16,3650,200458,0.24021160000000003,37,1,1,0,0,0,,1795182655.478255,0
+f13_ii_O_r2,f13,hs,hybrid,ii,O,r2,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,6,14,3108,174131,0.20449020000000004,31,1,1,0,0,0,,1795183644.734285,0
+f13_ii_O_r3,f13,hs,hybrid,ii,O,r3,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,6,14,3440,176778,0.2229796,50,1,1,0,0,0,,1795200967.751699,0
+f13_ii_S_r1,f13,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,7,16,2595,183544,0.0773804,33,1,1,0,0,0,,1795182640.93797,0
+f13_ii_S_r2,f13,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,6,14,2386,164591,0.0669231,31,1,1,0,0,0,,1795183624.9168751,0
+f13_ii_S_r3,f13,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,4,10,1194,110191,0.0409191,31,1,1,0,0,0,,1795200936.4072099,0
+f13_ii_X_r1,f13,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,179171,1638,118528,0,48,1,1,0,0,0,,1795182682.35632,0
+f13_ii_X_r2,f13,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,7,249517,1694,218880,0,51,1,1,0,0,0,,1795199901.7931972,0
+f13_ii_X_r3,f13,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,198483,1419,159616,0,40,1,1,0,0,0,,1795218341.8405051,0
+f13_iii_O_r1,f13,hs,hybrid,iii,O,r1,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1368,88426,0.08706920000000001,17,1,1,0,0,0,,1795182667.229857,0
+f13_iii_O_r2,f13,hs,hybrid,iii,O,r2,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1429,86267,0.0750014,17,1,1,0,0,0,,1795183644.792523,0
+f13_iii_O_r3,f13,hs,hybrid,iii,O,r3,claude-opus-5-5,1,geo:PodFailure,1,1,0,0,0,3,8,1467,86829,0.0768818,27,1,1,0,0,0,,1795200980.633573,0
+f13_iii_S_r1,f13,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,2,6,597,63440,0.02259,10,1,1,0,0,0,,1795182645.120019,0
+f13_iii_S_r2,f13,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,2,6,644,63438,0.023419799999999998,12,1,1,0,0,0,,1795183628.148097,0
+f13_iii_S_r3,f13,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,geo:PodFailure,1,1,0,0,0,2,6,578,63444,0.022668400000000002,8,1,1,0,0,0,,1795200957.194335,0
+f13_iii_X_r1,f13,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,186331,1748,153728,0,46,1,1,0,0,0,,1795182684.079496,0
+f13_iii_X_r2,f13,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,167431,1148,132864,0,33,1,1,0,0,0,,1795199907.705704,0
+f13_iii_X_r3,f13,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,geo:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,191467,1281,168832,0,38,1,1,0,0,0,,1795218345.34906,0
+f14_fix_O_r1,f14,hs,hybrid,fix,O,r1,claude-opus-5-5,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,14,2675,168767,0.1858214,30,1,1,0,0,0,,1795182730.376404,0
+f14_fix_O_r2,f14,hs,hybrid,fix,O,r2,claude-opus-5-5,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,14,2451,169514,0.16621879999999997,25,1,1,0,0,0,,1795183685.234932,0
+f14_fix_O_r3,f14,hs,hybrid,fix,O,r3,claude-opus-5-5,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,14,2659,165008,0.16687760000000001,51,1,1,0,0,0,,1795201018.196498,0
+f14_fix_S_r1,f14,hs,hybrid,fix,S,r1,claude-sonnet-5-5,1,reservation:MemoryStress,1,1,0,0,0,4,10,1368,109716,0.04928760000000001,18,1,1,0,0,0,,1795182716.689409,0
+f14_fix_S_r2,f14,hs,hybrid,fix,S,r2,claude-sonnet-5-5,1,reservation:MemoryStress | rate:PodFailure,2,1,1,1,0,6,14,2193,184054,0.1120954,32,1,1,0,0,0,,1795183672.118739,0
+f14_fix_S_r3,f14,hs,hybrid,fix,S,r3,claude-sonnet-5-5,1,reservation:MemoryStress | rate:PodKill,2,1,1,0,0,4,10,1969,109645,0.0539385,27,1,1,0,0,0,,1795201012.4326231,0
+f14_fix_X_r1,f14,hs,hybrid,fix,X,r1,gpt-6.2-sol,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,4,138833,885,115328,0,28,1,1,0,0,0,,1795199162.631393,0
+f14_fix_X_r2,f14,hs,hybrid,fix,X,r2,gpt-6.2-sol,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,4,137678,991,116864,0,28,1,1,0,0,0,,1795199939.1448698,0
+f14_fix_X_r3,f14,hs,hybrid,fix,X,r3,gpt-6.2-sol,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,3,97203,686,74496,0,21,1,1,0,0,0,,1795218382.101165,0
+f14_i_O_r1,f14,hs,hybrid,i,O,r1,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,2,6,1245,65046,0.18060520000000002,14,1,1,0,0,0,,1795182717.561461,0
+f14_i_O_r2,f14,hs,hybrid,i,O,r2,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,5,12,2273,138873,0.1473946,25,1,1,0,0,0,,1795183672.4021802,0
+f14_i_O_r3,f14,hs,hybrid,i,O,r3,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,4,10,2204,118571,0.19001020000000002,36,1,1,0,0,0,,1795201016.975057,0
+f14_i_O_s1,f14,hs,hybrid,i,O,s1,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,4,10,2386,112569,0.2254658,40,1,1,0,0,0,,1795181514.570861,0
+f14_i_O_s2,f14,hs,hybrid,i,O,s2,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,6,14,2843,167940,0.178728,51,1,1,0,0,0,,1795181520.164469,0
+f14_i_S_r1,f14,hs,hybrid,i,S,r1,claude-sonnet-5-5,1,rate:PodKill,1,0,1,0,0,4,10,1281,111356,0.0453176,18,1,1,0,0,0,,1795182692.7349272,0
+f14_i_S_r2,f14,hs,hybrid,i,S,r2,claude-sonnet-5-5,1,rate:PodFailure,1,0,1,1,0,4,10,2029,117032,0.0743292,22,1,1,0,0,0,,1795183655.821868,0
+f14_i_S_r3,f14,hs,hybrid,i,S,r3,claude-sonnet-5-5,1,rate:PodFailure,1,0,1,1,0,7,16,2512,190947,0.0867427,27,1,1,0,0,0,,1795200990.060438,0
+f14_i_S_s1,f14,hs,hybrid,i,S,s1,claude-sonnet-5-5,1,rate:PodFailure,1,0,1,1,0,4,10,1942,113919,0.0560239,25,1,1,0,0,0,,1795181497.507387,0
+f14_i_S_s2,f14,hs,hybrid,i,S,s2,claude-sonnet-5-5,1,rate:PodKill,1,0,1,0,0,3,8,1038,86582,0.036278200000000004,21,1,1,0,0,0,,1795181508.501894,0
+f14_i_X_r1,f14,hs,hybrid,i,X,r1,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,4,137553,934,103552,0,30,1,1,0,0,0,,1795199162.406243,0
+f14_i_X_r2,f14,hs,hybrid,i,X,r2,gpt-6.2-sol,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,5,167252,1269,146432,0,52,1,1,0,0,0,,1795199916.1897972,0
+f14_i_X_r3,f14,hs,hybrid,i,X,r3,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,3,97751,574,70144,0,18,1,1,0,0,0,,1795218353.991422,0
+f14_i_X_s1,f14,hs,hybrid,i,X,s1,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,3,109678,655,87040,0,35,1,1,0,0,0,,1795181522.45178,0
+f14_i_X_s2,f14,hs,hybrid,i,X,s2,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,5,153725,992,131328,0,30,1,1,0,0,0,,1795181522.786957,0
+f14_ii_O_r1,f14,hs,hybrid,ii,O,r1,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,5,12,2126,140306,0.1464852,21,1,1,0,0,0,,1795182719.833002,0
+f14_ii_O_r2,f14,hs,hybrid,ii,O,r2,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,4,10,2029,113968,0.2191976,24,1,1,0,0,0,,1795183675.4821398,0
+f14_ii_O_r3,f14,hs,hybrid,ii,O,r3,claude-opus-5-5,1,rate:PodFailure,1,0,1,1,0,3,8,1601,102528,0.2045176,30,1,1,0,0,0,,1795201017.472428,0
+f14_ii_S_r1,f14,hs,hybrid,ii,S,r1,claude-sonnet-5-5,1,rate:PodKill,1,0,1,0,0,5,12,1398,134302,0.04575420000000001,20,1,1,0,0,0,,1795182696.4777548,0
+f14_ii_S_r2,f14,hs,hybrid,ii,S,r2,claude-sonnet-5-5,1,rate:PodFailure,1,0,1,1,0,7,16,2889,184328,0.0863948,33,1,1,0,0,0,,1795183655.86978,0
+f14_ii_S_r3,f14,hs,hybrid,ii,S,r3,claude-sonnet-5-5,1,rate:PodFailure,1,0,1,1,0,5,12,2010,136731,0.0606891,20,1,1,0,0,0,,1795200998.5692952,0
+f14_ii_X_r1,f14,hs,hybrid,ii,X,r1,gpt-6.2-sol,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,4,135755,967,92544,0,30,1,1,0,0,0,,1795199162.476934,0
+f14_ii_X_r2,f14,hs,hybrid,ii,X,r2,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,3,110409,605,81408,0,20,1,1,0,0,0,,1795199919.031156,0
+f14_ii_X_r3,f14,hs,hybrid,ii,X,r3,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,3,104371,633,85248,0,20,1,1,0,0,0,,1795218372.356361,0
+f14_iii_O_r1,f14,hs,hybrid,iii,O,r1,claude-opus-5-5,1,reservation:MemoryStress | rate:PodFailure,2,1,1,1,0,6,14,3170,164955,0.28151099999999996,34,1,1,0,0,0,,1795182719.9469912,0
+f14_iii_O_r2,f14,hs,hybrid,iii,O,r2,claude-opus-5-5,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,6,14,3044,178497,0.21373939999999997,34,1,1,0,0,0,,1795183677.5435011,0
+f14_iii_O_r3,f14,hs,hybrid,iii,O,r3,claude-opus-5-5,1,rate:PodFailure | reservation:MemoryStress,2,1,1,1,0,7,16,3304,192894,0.2194428,60,1,1,0,0,0,,1795201017.559822,0
+f14_iii_S_r1,f14,hs,hybrid,iii,S,r1,claude-sonnet-5-5,1,reservation:MemoryStress,1,1,0,0,0,2,6,791,62796,0.029261600000000002,10,1,1,0,0,0,,1795182710.3524969,0
+f14_iii_S_r2,f14,hs,hybrid,iii,S,r2,claude-sonnet-5-5,1,reservation:MemoryStress,1,1,0,0,0,2,6,728,63922,0.0259082,11,1,1,0,0,0,,1795183661.4609432,0
+f14_iii_S_r3,f14,hs,hybrid,iii,S,r3,claude-sonnet-5-5,1,reservation:MemoryStress,1,1,0,0,0,2,6,748,62671,0.0452351,10,1,1,0,0,0,,1795201007.61042,0
+f14_iii_X_r1,f14,hs,hybrid,iii,X,r1,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,5,186274,1063,146944,0,36,1,1,0,0,0,,1795199162.5466938,0
+f14_iii_X_r2,f14,hs,hybrid,iii,X,r2,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,5,183609,1047,158976,0,44,1,1,0,0,0,,1795199919.232383,0
+f14_iii_X_r3,f14,hs,hybrid,iii,X,r3,gpt-6.2-sol,1,rate:PodFailure,1,0,1,1,0,4,145117,1009,94592,0,32,1,1,0,0,0,,1795218373.759455,0
+f15_fix_O_r1,f15,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,5,12,3355,144516,0.2095552,33,1,1,0,0,0,,1795182765.411158,0
+f15_fix_O_r2,f15,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,6,14,3069,173667,0.1912334,34,1,1,0,0,0,,1795183711.846283,0
+f15_fix_O_r3,f15,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,4,10,2713,114233,0.16370660000000004,41,1,1,0,0,0,,1795201068.9572742,0
+f15_fix_S_r1,f15,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-route-service:JVMLatency | ts-admin-route-service:JVMLatency,2,1,1,0,0,3,8,1106,86575,0.043201500000000004,13,1,1,0,0,0,,1795182757.9309099,0
+f15_fix_S_r2,f15,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1504,87988,0.0457828,19,1,1,0,0,0,,1795183701.9566998,0
+f15_fix_S_r3,f15,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1432,85547,0.0422147,16,1,1,0,0,0,,1795201052.676337,0
+f15_fix_X_r1,f15,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-admin-route-service:JVMLatency | ts-route-service:NetworkPartition,2,1,1,1,0,9,301569,3113,255232,0,79,1,1,0,0,0,,1795199192.3442109,0
+f15_fix_X_r2,f15,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,7,252790,2650,212224,0,70,1,1,0,0,0,,1795236337.262224,0
+f15_fix_X_r3,f15,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,9,308597,2693,262656,0,71,1,1,0,0,0,,1795218395.889567,0
+f15_i_O_r1,f15,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,4,10,2743,124134,0.18235079999999998,28,1,1,0,0,0,,1795182758.67243,0
+f15_i_O_r2,f15,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,12,2784,149613,0.1835866,30,1,1,0,0,0,,1795183704.455002,0
+f15_i_O_r3,f15,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,12,2471,142955,0.157227,44,1,1,0,0,0,,1795201054.4478889,0
+f15_i_O_s1,f15,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,12,2540,143906,0.15934120000000002,38,1,1,0,0,0,,1795181550.556569,0
+f15_i_O_s2,f15,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,4,10,2313,117954,0.1452268,39,1,1,0,0,0,,1795181553.149429,0
+f15_i_S_r1,f15,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1065,88291,0.041159100000000004,13,1,1,0,0,0,,1795182751.9677382,0
+f15_i_S_r2,f15,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,2,6,730,64818,0.0319738,13,1,1,0,0,0,,1795183689.293343,0
+f15_i_S_r3,f15,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,4,10,1681,113603,0.051926299999999995,19,1,1,0,0,0,,1795201039.268786,0
+f15_i_S_s1,f15,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,4,10,1761,110921,0.0544301,21,1,1,0,0,0,,1795181529.5022871,0
+f15_i_S_s2,f15,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1254,88563,0.0429963,20,1,1,0,0,0,,1795181535.292059,0
+f15_i_X_r1,f15,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,8,300443,2480,266368,0,66,1,1,0,0,0,,1795199162.749863,0
+f15_i_X_r2,f15,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,6,218697,1508,192640,0,398,1,1,0,0,0,,1795236337.035159,0
+f15_i_X_r3,f15,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,4,159782,1378,128384,0,35,1,1,0,0,0,,1795218383.031713,0
+f15_i_X_s1,f15,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,161906,1687,129280,0,44,1,1,0,0,0,,1795181554.609453,0
+f15_i_X_s2,f15,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,158556,1074,126720,0,32,1,1,0,0,0,,1795181555.6460018,0
+f15_ii_O_r1,f15,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,6,14,3481,191490,0.23410999999999998,38,1,1,0,0,0,,1795182760.801423,0
+f15_ii_O_r2,f15,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,4,10,2953,120680,0.180228,30,1,1,0,0,0,,1795183708.552642,0
+f15_ii_O_r3,f15,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,12,2871,147080,0.17144399999999999,43,1,1,0,0,0,,1795201057.85261,0
+f15_ii_S_r1,f15,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1096,87690,0.039937,14,1,1,0,0,0,,1795182752.423094,0
+f15_ii_S_r2,f15,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,0,1,0,0,3,8,1016,87231,0.0385951,16,1,1,0,0,0,,1795183697.2242298,0
+f15_ii_S_r3,f15,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-route-service:NetworkPartition,1,0,1,1,0,2,6,749,63945,0.0322165,10,1,1,0,0,0,,1795201047.7646441,0
+f15_ii_X_r1,f15,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,185220,1163,128768,0,34,1,1,0,0,0,,1795199162.832612,0
+f15_ii_X_r2,f15,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,6,212475,1751,185984,0,66,1,1,0,0,0,,1795236337.137033,0
+f15_ii_X_r3,f15,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,5,173220,1310,146944,0,60,1,1,0,0,0,,1795218383.466205,0
+f15_iii_O_r1,f15,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-admin-route-service:JVMLatency | ts-route-service:NetworkPartition,2,1,1,1,0,8,18,4959,227892,0.25810239999999995,53,1,1,0,0,0,,1795182762.31336,0
+f15_iii_O_r2,f15,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-admin-route-service:JVMLatency | ts-route-service:NetworkPartition,2,1,1,1,0,8,18,4359,223288,0.2252056,50,1,1,0,0,0,,1795183710.701925,0
+f15_iii_O_r3,f15,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,7,16,3718,190165,0.194401,59,1,1,0,0,0,,1795201058.29004,0
+f15_iii_S_r1,f15,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-admin-route-service:JVMLatency,1,1,0,0,0,1,4,483,40524,0.022298400000000003,8,1,1,0,0,0,,1795182753.901155,0
+f15_iii_S_r2,f15,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-admin-route-service:JVMLatency,1,1,0,0,0,1,4,513,41514,0.018629399999999997,9,1,1,0,0,0,,1795183699.053025,0
+f15_iii_S_r3,f15,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-admin-route-service:JVMLatency,1,1,0,0,0,1,4,426,40523,0.0219243,6,1,1,0,0,0,,1795201047.850435,0
+f15_iii_X_r1,f15,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,7,238329,1988,201472,0,53,1,1,0,0,0,,1795199191.151585,0
+f15_iii_X_r2,f15,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkPartition | ts-admin-route-service:JVMLatency,2,1,1,1,0,5,167131,1261,116224,0,36,1,1,0,0,0,,1795199952.999826,0
+f15_iii_X_r3,f15,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkPartition,1,0,1,1,0,7,224542,1689,182528,0,49,1,1,0,0,0,,1795218392.33272,0
+f16_fix_O_r1,f16,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,4,10,2308,115494,0.1523468,25,1,1,0,0,0,,1795182800.710196,0
+f16_fix_O_r2,f16,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,4,10,2026,113417,0.1150754,26,1,1,0,0,0,,1795183753.614035,0
+f16_fix_O_r3,f16,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,3,8,1826,87697,0.1120514,35,1,1,0,0,0,,1795201112.337874,0
+f16_fix_S_r1,f16,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,2,6,691,62690,0.034023,9,1,1,0,0,0,,1795182791.750468,0
+f16_fix_S_r2,f16,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,2,6,1136,64049,0.0381129,17,1,1,0,0,0,,1795183738.758904,0
+f16_fix_S_r3,f16,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,4,10,2024,113695,0.0635255,17,1,1,0,0,0,,1795201095.513685,0
+f16_fix_X_r1,f16,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss | ts-route-plan-service:JVMLatency,2,1,1,1,0,11,421916,3333,384512,0,86,1,1,0,0,0,,1795199228.997101,0
+f16_fix_X_r2,f16,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss | ts-route-plan-service:JVMLatency,2,1,1,1,0,8,322618,3187,287104,0,92,1,1,0,0,0,,1795217731.615335,0
+f16_fix_X_r3,f16,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss | ts-route-plan-service:JVMLatency,2,1,1,1,0,14,818758,3884,746624,0,110,1,1,0,0,0,,1795218441.31382,0
+f16_i_O_r1,f16,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-travel2-service:NetworkDelay,1,1,0,0,0,11,24,6442,371059,0.37709980000000004,68,1,1,0,0,0,,1795182797.880466,0
+f16_i_O_r2,f16,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,15,32,8776,503656,0.7323632,135,1,1,0,0,0,,1795200211.182653,0
+f16_i_O_r3,f16,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,10,22,6215,369920,0.43220400000000003,94,1,1,0,0,0,,1795201098.5498822,0
+f16_i_O_s1,f16,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-route-plan-service:JVMLatency,1,0,1,1,0,16,34,11346,698216,0.7610512000000001,162,1,1,0,0,0,,1795181587.269952,0
+f16_i_O_s2,f16,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-travel2-service:HTTPRequestDelay,1,1,0,0,0,23,48,15198,948917,0.8177034,219,1,1,0,0,0,,1795181588.587539,0
+f16_i_S_r1,f16,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency | ts-travel2-service:JVMLatency,2,1,1,1,0,3,8,1780,87578,0.055357800000000006,20,1,1,0,0,0,,1795182771.6557162,0
+f16_i_S_r2,f16,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-travel-service:NetworkLoss,1,0,0,0,1,7,16,3629,203087,0.09962670000000001,40,1,1,0,0,0,,1795183713.8194828,0
+f16_i_S_r3,f16,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-travel2-service:HTTPRequestDelay,1,1,0,0,0,4,10,1460,118025,0.06592250000000001,16,1,1,0,0,0,,1795201069.6323788,0
+f16_i_S_s1,f16,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency | ts-travel2-service:HTTPResponseDelay,2,1,1,1,0,7,16,3714,197409,0.10081689999999999,40,1,1,0,0,0,,1795181557.68209,0
+f16_i_S_s2,f16,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency,1,0,1,1,0,6,14,2635,171734,0.07823939999999999,39,1,1,0,0,0,,1795181571.671436,0
+f16_i_X_r1,f16,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,11,446931,3519,408576,0,97,1,1,0,0,0,,1795199193.0181959,0
+f16_i_X_r2,f16,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,12,551939,4459,464512,0,120,1,1,0,0,0,,1795236337.407584,0
+f16_i_X_r3,f16,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,11,487195,3436,433408,0,92,1,1,0,0,0,,1795218402.758147,0
+f16_i_X_s1,f16,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,9,380465,2874,334336,0,73,1,1,0,0,0,,1795181592.391896,0
+f16_i_X_s2,f16,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-route-service:NetworkLoss,2,1,1,1,0,10,485268,3889,425856,0,101,1,1,0,0,0,,1795181597.600425,0
+f16_ii_O_r1,f16,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,24,50,14639,1078338,0.8980716,151,1,1,0,0,0,,1795182798.557224,0
+f16_ii_O_r2,f16,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-route-plan-service:JVMLatency,1,0,1,1,0,7,16,3931,218993,0.2462986,40,1,1,0,0,0,,1795183746.240066,0
+f16_ii_O_r3,f16,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,14,30,8483,542289,0.5506058,133,1,1,0,0,0,,1795201100.9240682,0
+f16_ii_S_r1,f16,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkDelay,2,1,1,1,0,5,12,2336,139107,0.0659787,28,1,1,0,0,0,,1795182773.069705,0
+f16_ii_S_r2,f16,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency | ts-travel2-service:HTTPRequestDelay,2,1,1,1,0,4,10,2169,114207,0.06193470000000001,24,1,1,0,0,0,,1795183720.865928,0
+f16_ii_S_r3,f16,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-route-plan-service:JVMLatency,1,0,1,1,0,7,16,3844,204586,0.10740659999999999,47,1,1,0,0,0,,1795201077.2587142,0
+f16_ii_X_r1,f16,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,14,706382,5420,639104,0,170,1,1,0,0,0,,1795199197.303744,0
+f16_ii_X_r2,f16,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,13,635203,4341,564736,0,113,1,1,0,0,0,,1795236337.507723,0
+f16_ii_X_r3,f16,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-route-plan-service:JVMLatency | ts-travel2-service:NetworkLoss,2,1,1,1,0,8,330606,2883,273024,0,76,1,1,0,0,0,,1795218405.7157462,0
+f16_iii_O_r1,f16,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,5,12,2047,136211,0.1269502,25,1,1,0,0,0,,1795182798.813298,0
+f16_iii_O_r2,f16,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,4,10,2224,112937,0.1151314,26,1,1,0,0,0,,1795183749.900782,0
+f16_iii_O_r3,f16,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,4,10,1940,109675,0.10827899999999999,34,1,1,0,0,0,,1795201110.347344,0
+f16_iii_S_r1,f16,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,2,6,829,62493,0.0352953,11,1,1,0,0,0,,1795182786.879225,0
+f16_iii_S_r2,f16,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,3,8,1097,86007,0.032898699999999996,15,1,1,0,0,0,,1795183735.01845,0
+f16_iii_S_r3,f16,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,2,6,688,62870,0.03414300000000001,10,1,1,0,0,0,,1795201085.88307,0
+f16_iii_X_r1,f16,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,7,235171,1971,209408,0,53,1,1,0,0,0,,1795199198.249801,0
+f16_iii_X_r2,f16,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,6,210750,1752,172160,0,49,1,1,0,0,0,,1795236337.625247,0
+f16_iii_X_r3,f16,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-travel2-service:NetworkLoss,1,1,0,0,0,7,265747,2011,224512,0,56,1,1,0,0,0,,1795218418.094403,0
+f17_fix_O_r1,f17,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,7,16,4427,210045,0.25556500000000004,49,1,1,0,0,0,,1795182851.636627,0
+f17_fix_O_r2,f17,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,6,14,3790,173460,0.1889,41,1,1,0,0,0,,1795183794.882244,0
+f17_fix_O_r3,f17,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,6,14,3802,168552,0.1928624,60,1,1,0,0,0,,1795201163.546525,0
+f17_fix_S_r1,f17,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:HTTPRequestDelay,2,1,1,0,0,3,8,1537,85991,0.0420771,16,1,1,0,0,0,,1795182825.382118,0
+f17_fix_S_r2,f17,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency,1,1,0,0,0,3,8,1388,87437,0.0408557,18,1,1,0,0,0,,1795183776.853364,0
+f17_fix_S_r3,f17,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency,1,1,0,0,0,3,8,1346,86657,0.047061700000000005,19,1,1,0,0,0,,1795201144.705875,0
+f17_fix_X_r1,f17,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,10,422319,4515,380288,0,108,1,1,0,0,0,,1795199290.677789,0
+f17_fix_X_r2,f17,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,8,385288,2819,306816,0,75,1,1,0,0,0,,1795217731.3512,0
+f17_fix_X_r3,f17,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,11,400651,3758,365056,0,95,1,1,0,0,0,,1795236745.243422,0
+f17_i_O_r1,f17,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,10,22,5580,285179,0.26263580000000003,59,1,1,0,0,0,,1795182828.034752,0
+f17_i_O_r2,f17,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,6,14,3559,180716,0.2324832,36,1,1,0,0,0,,1795183779.519139,0
+f17_i_O_r3,f17,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,7,16,4068,207221,0.2221882,64,1,1,0,0,0,,1795201146.025342,0
+f17_i_O_s1,f17,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,7,16,4017,218329,0.2466058,58,1,1,0,0,0,,1795181618.7118158,0
+f17_i_O_s2,f17,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,7,16,4162,202245,0.219865,62,1,1,0,0,0,,1795181644.2175748,0
+f17_i_S_r1,f17,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-seat-service:HTTPRequestDelay,1,0,1,0,0,3,8,1744,90062,0.0507982,20,1,1,0,0,0,,1795182808.4665,0
+f17_i_S_r2,f17,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-seat-service:NetworkDelay,1,0,1,0,0,6,14,3108,176219,0.0920339,39,1,1,0,0,0,,1795183755.920768,0
+f17_i_S_r3,f17,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-seat-service:HTTPRequestDelay,1,0,1,0,0,6,14,2438,165880,0.070352,28,1,1,0,0,0,,1795201117.801205,0
+f17_i_S_s1,f17,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-seat-service:JVMLatency,1,0,1,0,0,4,10,1728,112748,0.0561748,20,1,1,0,0,0,,1795181598.783832,0
+f17_i_S_s2,f17,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkDelay,2,1,1,0,0,5,12,2776,140398,0.0755478,34,1,1,0,0,0,,1795181610.34716,0
+f17_i_X_r1,f17,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-seat-service:NetworkLoss,1,0,1,0,0,9,325520,3184,270848,0,80,1,1,0,0,0,,1795199244.3837929,0
+f17_i_X_r2,f17,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,12,429943,4073,393600,0,103,1,1,0,0,0,,1795217730.9471989,0
+f17_i_X_r3,f17,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,13,627086,6139,552448,0,143,1,1,0,0,0,,1795236744.887525,0
+f17_i_X_s1,f17,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,10,381062,3631,339584,0,89,1,1,0,0,0,,1795181665.5288708,0
+f17_i_X_s2,f17,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,12,510414,4448,470144,0,141,1,1,0,0,0,,1795181676.4334579,0
+f17_ii_O_r1,f17,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,7,16,3953,208541,0.2193202,42,1,1,0,0,0,,1795182830.98437,0
+f17_ii_O_r2,f17,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,8,18,4485,232869,0.24120979999999997,45,1,1,0,0,0,,1795183783.203402,0
+f17_ii_O_r3,f17,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-seat-service:NetworkLoss,1,0,1,0,0,7,16,3731,206521,0.21750819999999998,59,1,1,0,0,0,,1795201147.375251,0
+f17_ii_S_r1,f17,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-seat-service:HTTPRequestDelay,1,0,1,0,0,6,14,2889,166957,0.0764097,36,1,1,0,0,0,,1795182815.3766809,0
+f17_ii_S_r2,f17,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-seat-service:JVMLatency,1,0,1,0,0,3,8,1025,87616,0.0382196,15,1,1,0,0,0,,1795183761.263409,0
+f17_ii_S_r3,f17,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-seat-service:HTTPRequestDelay,1,0,1,0,0,4,10,1462,112656,0.0507096,17,1,1,0,0,0,,1795201123.924583,0
+f17_ii_X_r1,f17,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,11,571788,4242,518656,0,110,1,1,0,0,0,,1795199251.056145,0
+f17_ii_X_r2,f17,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-config-service:NetworkLoss,1,0,1,0,0,12,448420,5060,416640,0,170,1,1,0,0,0,,1795217731.069001,0
+f17_ii_X_r3,f17,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-config-service:NetworkLoss,1,0,1,0,0,11,422580,4689,358144,0,113,1,1,0,0,0,,1795236745.3796868,0
+f17_iii_O_r1,f17,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,12,26,6384,339467,0.3120214,65,1,1,0,0,0,,1795182841.76945,0
+f17_iii_O_r2,f17,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,6,14,3604,164500,0.17298,40,1,1,0,0,0,,1795183786.031584,0
+f17_iii_O_r3,f17,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,9,20,5479,254268,0.27300959999999996,81,1,1,0,0,0,,1795201147.87452,0
+f17_iii_S_r1,f17,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency,1,1,0,0,0,1,4,512,40523,0.022696300000000003,7,1,1,0,0,0,,1795182824.376744,0
+f17_iii_S_r2,f17,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency,1,1,0,0,0,1,4,628,41515,0.019763500000000003,7,1,1,0,0,0,,1795183775.910351,0
+f17_iii_S_r3,f17,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-travel-plan-service:JVMLatency,1,1,0,0,0,1,4,486,40524,0.0222324,7,1,1,0,0,0,,1795201140.731515,0
+f17_iii_X_r1,f17,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-config-service:NetworkLoss,2,1,1,0,0,11,367328,3735,307968,0,98,1,1,0,0,0,,1795199271.220769,0
+f17_iii_X_r2,f17,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,9,336649,3561,286464,0,87,1,1,0,0,0,,1795217731.210006,0
+f17_iii_X_r3,f17,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-travel-plan-service:JVMLatency | ts-seat-service:NetworkLoss,2,1,1,0,0,11,409520,4321,375296,0,106,1,1,0,0,0,,1795236745.1184828,0
+f18_fix_O_r1,f18,ts,hybrid,fix,O,r1,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,3,8,2054,87972,0.1147144,22,1,1,0,0,0,,1795182906.076633,0
+f18_fix_O_r2,f18,ts,hybrid,fix,O,r2,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,4,10,2112,114116,0.1199032,24,1,1,0,0,0,,1795183839.1373298,0
+f18_fix_O_r3,f18,ts,hybrid,fix,O,r3,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,3,8,1778,87112,0.1130544,30,1,1,0,0,0,,1795201234.516762,0
+f18_fix_S_r1,f18,ts,hybrid,fix,S,r1,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,3,8,1136,88335,0.0483615,16,1,1,0,0,0,,1795182890.148633,0
+f18_fix_S_r2,f18,ts,hybrid,fix,S,r2,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,1,4,755,41539,0.0270599,13,1,1,0,0,0,,1795183825.728789,0
+f18_fix_S_r3,f18,ts,hybrid,fix,S,r3,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,3,8,1235,87116,0.0471016,28,1,1,0,0,0,,1795201223.681153,0
+f18_fix_X_r1,f18,ts,hybrid,fix,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,7,258230,2002,228864,0,66,1,1,0,0,0,,1795199367.426904,0
+f18_fix_X_r2,f18,ts,hybrid,fix,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,6,221172,1714,190080,0,77,1,1,0,0,0,,1795217818.613164,0
+f18_fix_X_r3,f18,ts,hybrid,fix,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,9,325342,2916,290048,0,74,1,1,0,0,0,,1795236783.2032309,0
+f18_i_O_r1,f18,ts,hybrid,i,O,r1,claude-opus-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,4,10,2174,115205,0.134145,22,1,1,0,0,0,,1795182895.2971241,0
+f18_i_O_r2,f18,ts,hybrid,i,O,r2,claude-opus-5-5,1,ts-route-service:NetworkLoss,1,1,0,0,0,5,12,3178,151560,0.273304,33,1,1,0,0,0,,1795183828.670135,0
+f18_i_O_r3,f18,ts,hybrid,i,O,r3,claude-opus-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,4,10,2527,123011,0.18038220000000002,41,1,1,0,0,0,,1795201223.7670221,0
+f18_i_O_s1,f18,ts,hybrid,i,O,s1,claude-opus-5-5,1,ts-route-service:NetworkLoss,1,1,0,0,0,6,14,2826,175996,0.1767672,42,1,1,0,0,0,,1795181724.914829,0
+f18_i_O_s2,f18,ts,hybrid,i,O,s2,claude-opus-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,5,12,2863,147566,0.18681319999999998,44,1,1,0,0,0,,1795181729.444702,0
+f18_i_S_r1,f18,ts,hybrid,i,S,r1,claude-sonnet-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,5,12,2383,140016,0.0698276,28,1,1,0,0,0,,1795182873.002454,0
+f18_i_S_r2,f18,ts,hybrid,i,S,r2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,3,8,1810,90952,0.05459119999999999,18,1,1,0,0,0,,1795183795.5047739,0
+f18_i_S_r3,f18,ts,hybrid,i,S,r3,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,4,10,1872,115416,0.0603296,36,1,1,0,0,0,,1795201193.087052,0
+f18_i_S_s1,f18,ts,hybrid,i,S,s1,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,5,12,2140,140752,0.0636712,26,1,1,0,0,0,,1795181698.7751958,0
+f18_i_S_s2,f18,ts,hybrid,i,S,s2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,4,10,1777,113390,0.057609,23,1,1,0,0,0,,1795181705.9508429,0
+f18_i_X_r1,f18,ts,hybrid,i,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,8,311719,2210,256640,0,59,1,1,0,0,0,,1795199314.905897,0
+f18_i_X_r2,f18,ts,hybrid,i,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,6,239826,1985,199808,0,54,1,1,0,0,0,,1795217731.505362,0
+f18_i_X_r3,f18,ts,hybrid,i,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,6,196544,1889,167040,0,51,1,1,0,0,0,,1795218495.200674,0
+f18_i_X_s1,f18,ts,hybrid,i,X,s1,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,7,271244,2181,224000,0,58,1,1,0,0,0,,1795181749.49705,0
+f18_i_X_s2,f18,ts,hybrid,i,X,s2,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,7,263211,1948,226560,0,53,1,1,0,0,0,,1795181754.811751,0
+f18_ii_O_r1,f18,ts,hybrid,ii,O,r1,claude-opus-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,6,14,3456,179006,0.2776652,43,1,1,0,0,0,,1795182900.724471,0
+f18_ii_O_r2,f18,ts,hybrid,ii,O,r2,claude-opus-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,3,8,2223,94535,0.17984699999999998,23,1,1,0,0,0,,1795183830.3763509,0
+f18_ii_O_r3,f18,ts,hybrid,ii,O,r3,claude-opus-5-5,1,ts-route-service:NetworkLoss,1,1,0,0,0,7,16,4436,203631,0.22166220000000003,63,1,1,0,0,0,,1795201228.826598,0
+f18_ii_S_r1,f18,ts,hybrid,ii,S,r1,claude-sonnet-5-5,1,ts-route-service:CPUStress,1,1,0,0,0,3,8,1034,89269,0.03942290000000001,16,1,1,0,0,0,,1795182873.7164512,0
+f18_ii_S_r2,f18,ts,hybrid,ii,S,r2,claude-sonnet-5-5,1,ts-route-service:JVMLatency,1,1,0,0,0,4,10,1685,113439,0.0588899,26,1,1,0,0,0,,1795183814.0891168,0
+f18_ii_S_r3,f18,ts,hybrid,ii,S,r3,claude-sonnet-5-5,1,ts-route-service:NetworkDelay,1,1,0,0,0,4,10,1860,115477,0.06382769999999999,55,1,1,0,0,0,,1795201206.41256,0
+f18_ii_X_r1,f18,ts,hybrid,ii,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,7,248713,2210,222464,0,57,1,1,0,0,0,,1795199324.5608199,0
+f18_ii_X_r2,f18,ts,hybrid,ii,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkLoss,1,1,0,0,0,9,274429,2197,221184,0,63,1,1,0,0,0,,1795217785.820939,0
+f18_ii_X_r3,f18,ts,hybrid,ii,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkLoss | ts-admin-route-service:JVMLatency,2,1,1,1,0,9,363060,2462,313600,0,72,1,1,0,0,0,,1795236744.9992902,0
+f18_iii_O_r1,f18,ts,hybrid,iii,O,r1,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,4,10,1589,108595,0.09565100000000001,22,1,1,0,0,0,,1795182901.354063,0
+f18_iii_O_r2,f18,ts,hybrid,iii,O,r2,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,3,8,1652,87389,0.08705380000000001,20,1,1,0,0,0,,1795183835.755414,0
+f18_iii_O_r3,f18,ts,hybrid,iii,O,r3,claude-opus-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,4,10,1855,109411,0.1060222,32,1,1,0,0,0,,1795201228.996285,0
+f18_iii_S_r1,f18,ts,hybrid,iii,S,r1,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,2,6,680,62512,0.0326672,8,1,1,0,0,0,,1795182886.7350779,0
+f18_iii_S_r2,f18,ts,hybrid,iii,S,r2,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,2,6,752,63495,0.0295135,15,1,1,0,0,0,,1795183815.620914,0
+f18_iii_S_r3,f18,ts,hybrid,iii,S,r3,claude-sonnet-5-5,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,2,6,687,62484,0.0327104,13,1,1,0,0,0,,1795201210.5934541,0
+f18_iii_X_r1,f18,ts,hybrid,iii,X,r1,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,7,250890,2206,200448,0,58,1,1,0,0,0,,1795199360.868913,0
+f18_iii_X_r2,f18,ts,hybrid,iii,X,r2,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,7,267597,2145,219904,0,58,1,1,0,0,0,,1795217806.204735,0
+f18_iii_X_r3,f18,ts,hybrid,iii,X,r3,gpt-6.2-sol,1,ts-route-service:NetworkCorrupt,1,1,0,0,0,5,179036,1357,145152,0,38,1,1,0,0,0,,1795236745.496212,0
+k01_ctl_invite_O_r1,k01,hs,control,ctl_invite,O,r1,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,7,16,4012,201794,0.2247188,44,1,1,0,0,0,,1795182926.4744,0
+k01_ctl_invite_O_r2,k01,hs,control,ctl_invite,O,r2,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,11,24,5257,374382,0.39846440000000005,58,1,1,0,0,0,,1795183856.290457,0
+k01_ctl_invite_O_r3,k01,hs,control,ctl_invite,O,r3,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,10,22,5297,341125,0.397885,87,1,1,0,0,0,,1795201263.735428,0
+k01_ctl_invite_S_r1,k01,hs,control,ctl_invite,S,r1,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,4,10,1616,111269,0.0634069,24,1,1,0,0,0,,1795182917.178915,0
+k01_ctl_invite_S_r2,k01,hs,control,ctl_invite,S,r2,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,6,14,2242,162202,0.0687562,29,1,1,0,0,0,,1795183851.838093,0
+k01_ctl_invite_S_r3,k01,hs,control,ctl_invite,S,r3,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,6,14,2624,173074,0.12560339999999998,52,1,1,0,0,0,,1795201261.346474,0
+k01_ctl_invite_X_r1,k01,hs,control,ctl_invite,X,r1,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,9,425943,2147,362752,0,62,1,1,0,0,0,,1795199374.12002,0
+k01_ctl_invite_X_r2,k01,hs,control,ctl_invite,X,r2,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,8,271560,2078,204928,0,58,1,1,0,0,0,,1795217834.310221,0
+k01_ctl_invite_X_r3,k01,hs,control,ctl_invite,X,r3,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,11,480507,3267,407424,0,87,1,1,0,0,0,,1795236839.993841,0
+k01_ctl_truth_O_r1,k01,hs,control,ctl_truth,O,r1,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,4,10,1790,109702,0.1077564,20,1,1,0,0,0,,1795182923.0723798,0
+k01_ctl_truth_O_r2,k01,hs,control,ctl_truth,O,r2,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,4,10,1728,111520,0.116744,20,1,1,0,0,0,,1795183853.757153,0
+k01_ctl_truth_O_r3,k01,hs,control,ctl_truth,O,r3,claude-opus-5-5,1,attractions:PodFailure,1,1,,,0,2,6,1194,63101,0.0877962,23,1,1,0,0,0,,1795201261.5554528,0
+k01_ctl_truth_S_r1,k01,hs,control,ctl_truth,S,r1,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,4,10,1135,107608,0.0400148,12,1,1,0,0,0,,1795182914.209547,0
+k01_ctl_truth_S_r2,k01,hs,control,ctl_truth,S,r2,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,2,6,589,63572,0.0244312,12,1,1,0,0,0,,1795183839.777811,0
+k01_ctl_truth_S_r3,k01,hs,control,ctl_truth,S,r3,claude-sonnet-5-5,1,attractions:PodFailure,1,1,,,0,2,6,571,62469,0.026560900000000005,12,1,1,0,0,0,,1795201252.035018,0
+k01_ctl_truth_X_r1,k01,hs,control,ctl_truth,X,r1,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,5,147136,972,129536,0,29,1,1,0,0,0,,1795199369.448983,0
+k01_ctl_truth_X_r2,k01,hs,control,ctl_truth,X,r2,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,4,129592,875,109184,0,44,1,1,0,0,0,,1795217823.272335,0
+k01_ctl_truth_X_r3,k01,hs,control,ctl_truth,X,r3,gpt-6.2-sol,1,attractions:PodFailure,1,1,,,0,4,126350,836,70144,0,28,1,1,0,0,0,,1795236817.499274,0
+k02_ctl_invite_O_r1,k02,hs,control,ctl_invite,O,r1,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,8,18,4997,239238,0.28261959999999997,57,1,1,0,0,0,,1795182944.139369,0
+k02_ctl_invite_O_r2,k02,hs,control,ctl_invite,O,r2,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,8,18,5359,243135,0.292799,58,1,1,0,0,0,,1795183874.1832168,0
+k02_ctl_invite_O_r3,k02,hs,control,ctl_invite,O,r3,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,10,22,5912,316030,0.3730300000000001,95,1,1,0,0,0,,1795201284.61278,0
+k02_ctl_invite_S_r1,k02,hs,control,ctl_invite,S,r1,claude-sonnet-5-5,1,frontend:NetworkPartition | profile:PodFailure,2,1,,,0,4,10,2139,109981,0.0579521,22,1,1,0,0,0,,1795182940.812862,0
+k02_ctl_invite_S_r2,k02,hs,control,ctl_invite,S,r2,claude-sonnet-5-5,1,frontend:NetworkPartition | profile:PodFailure,2,1,,,0,4,10,2113,112232,0.0518812,25,1,1,0,0,0,,1795183863.2835908,0
+k02_ctl_invite_S_r3,k02,hs,control,ctl_invite,S,r3,claude-sonnet-5-5,1,profile:PodKill | frontend:NetworkPartition,2,1,,,0,4,10,1994,110500,0.054821999999999996,36,1,1,0,0,0,,1795201265.125824,0
+k02_ctl_invite_X_r1,k02,hs,control,ctl_invite,X,r1,gpt-6.2-sol,1,frontend:NetworkPartition | profile:NetworkPartition,2,1,,,0,8,320546,2201,265344,0,73,1,1,0,0,0,,1795199398.3070269,0
+k02_ctl_invite_X_r2,k02,hs,control,ctl_invite,X,r2,gpt-6.2-sol,1,frontend:NetworkPartition,1,1,,,0,7,280375,1699,230912,0,46,1,1,0,0,0,,1795217864.309099,0
+k02_ctl_invite_X_r3,k02,hs,control,ctl_invite,X,r3,gpt-6.2-sol,1,frontend:NetworkPartition,1,1,,,0,9,398902,2557,354304,0,70,1,1,0,0,0,,1795236851.491939,0
+k02_ctl_truth_O_r1,k02,hs,control,ctl_truth,O,r1,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,5,12,2724,140585,0.164869,31,1,1,0,0,0,,1795182943.637192,0
+k02_ctl_truth_O_r2,k02,hs,control,ctl_truth,O,r2,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,4,10,2125,121969,0.16838180000000003,26,1,1,0,0,0,,1795183871.744353,0
+k02_ctl_truth_O_r3,k02,hs,control,ctl_truth,O,r3,claude-opus-5-5,1,frontend:NetworkPartition,1,1,,,0,5,12,2576,139797,0.1523194,51,1,1,0,0,0,,1795201280.616232,0
+k02_ctl_truth_S_r1,k02,hs,control,ctl_truth,S,r1,claude-sonnet-5-5,1,frontend:NetworkPartition | profile:NetworkPartition,2,1,,,0,3,8,1474,85101,0.0427341,16,1,1,0,0,0,,1795182931.3479931,0
+k02_ctl_truth_S_r2,k02,hs,control,ctl_truth,S,r2,claude-sonnet-5-5,1,frontend:NetworkPartition,1,1,,,0,2,6,666,63466,0.023638600000000003,10,1,1,0,0,0,,1795183861.768469,0
+k02_ctl_truth_S_r3,k02,hs,control,ctl_truth,S,r3,claude-sonnet-5-5,1,frontend:NetworkPartition,1,1,,,0,2,6,954,62479,0.0304959,16,1,1,0,0,0,,1795201264.351588,0
+k02_ctl_truth_X_r1,k02,hs,control,ctl_truth,X,r1,gpt-6.2-sol,1,frontend:NetworkPartition,1,1,,,0,4,126213,1096,101504,0,31,1,1,0,0,0,,1795199381.982702,0
+k02_ctl_truth_X_r2,k02,hs,control,ctl_truth,X,r2,gpt-6.2-sol,1,frontend:NetworkPartition,1,1,,,0,5,159055,1410,137472,0,41,1,1,0,0,0,,1795217849.268394,0
+k02_ctl_truth_X_r3,k02,hs,control,ctl_truth,X,r3,gpt-6.2-sol,1,frontend:NetworkPartition,1,1,,,0,5,154992,1184,125952,0,34,1,1,0,0,0,,1795236845.281905,0
+k03_ctl_invite_O_r1,k03,otel-demo,control,ctl_invite,O,r1,claude-opus-5-5,1,checkout:NetworkCorrupt,1,1,,,0,11,24,5817,419783,0.5069766000000001,69,1,1,0,0,0,,1795182962.8170419,0
+k03_ctl_invite_O_r2,k03,otel-demo,control,ctl_invite,O,r2,claude-opus-5-5,1,checkout:NetworkCorrupt,1,1,,,0,12,26,6519,386813,0.6058706,101,1,1,0,0,9,/tmp/q1.py ; /tmp/q2.py ; /tmp/q3.py,1795200211.264297,0
+k03_ctl_invite_O_r3,k03,otel-demo,control,ctl_invite,O,r3,claude-opus-5-5,1,checkout:NetworkCorrupt | currency:NetworkPartition,2,1,,,0,13,28,8155,469283,0.5415886000000001,130,1,1,0,0,0,,1795201313.7844238,0
+k03_ctl_invite_S_r1,k03,otel-demo,control,ctl_invite,S,r1,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,7,16,3265,187594,0.08535339999999998,36,1,1,0,0,0,,1795182951.03791,0
+k03_ctl_invite_S_r2,k03,otel-demo,control,ctl_invite,S,r2,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,5,12,2545,137561,0.0758061,34,1,1,0,0,0,,1795183887.893182,0
+k03_ctl_invite_S_r3,k03,otel-demo,control,ctl_invite,S,r3,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,6,14,2954,162998,0.0791398,42,1,1,0,0,0,,1795201301.65324,0
+k03_ctl_invite_X_r1,k03,otel-demo,control,ctl_invite,X,r1,gpt-6.2-sol,1,checkout:NetworkCorrupt | currency:NetworkPartition,2,1,,,0,11,545687,2957,490752,0,79,1,1,0,0,0,,1795199413.2616708,0
+k03_ctl_invite_X_r2,k03,otel-demo,control,ctl_invite,X,r2,gpt-6.2-sol,1,checkout:NetworkCorrupt | currency:NetworkPartition,2,1,,,0,9,350780,2297,313856,0,65,1,1,0,0,0,,1795217890.6667619,0
+k03_ctl_invite_X_r3,k03,otel-demo,control,ctl_invite,X,r3,gpt-6.2-sol,1,checkout:NetworkCorrupt,1,1,,,0,9,419759,2140,364288,0,61,1,1,0,0,0,,1795236858.091545,0
+k03_ctl_truth_O_r1,k03,otel-demo,control,ctl_truth,O,r1,claude-opus-5-5,1,checkout:NetworkCorrupt,1,1,,,0,4,10,1914,111989,0.1237818,22,1,1,0,0,0,,1795182959.498407,0
+k03_ctl_truth_O_r2,k03,otel-demo,control,ctl_truth,O,r2,claude-opus-5-5,1,checkout:NetworkCorrupt,1,1,,,0,4,10,2324,111125,0.11921699999999999,25,1,1,0,0,0,,1795183892.478071,0
+k03_ctl_truth_O_r3,k03,otel-demo,control,ctl_truth,O,r3,claude-opus-5-5,1,checkout:NetworkCorrupt,1,1,,,0,4,10,2193,113599,0.1407558,37,1,1,0,0,0,,1795201309.4624262,0
+k03_ctl_truth_S_r1,k03,otel-demo,control,ctl_truth,S,r1,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,2,6,658,62489,0.028396900000000003,9,1,1,0,0,0,,1795182949.936654,0
+k03_ctl_truth_S_r2,k03,otel-demo,control,ctl_truth,S,r2,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,2,6,687,63469,0.0261409,11,1,1,0,0,0,,1795183881.085255,0
+k03_ctl_truth_S_r3,k03,otel-demo,control,ctl_truth,S,r3,claude-sonnet-5-5,1,checkout:NetworkCorrupt,1,1,,,0,2,6,771,62495,0.0308395,17,1,1,0,0,0,,1795201292.170469,0
+k03_ctl_truth_X_r1,k03,otel-demo,control,ctl_truth,X,r1,gpt-6.2-sol,1,currency:NetworkPartition,1,1,,,0,7,323963,2185,270080,0,58,1,1,0,0,0,,1795199398.785992,0
+k03_ctl_truth_X_r2,k03,otel-demo,control,ctl_truth,X,r2,gpt-6.2-sol,1,checkout:NetworkCorrupt,1,1,,,0,5,203196,1328,160768,0,38,1,1,0,0,0,,1795217866.9874618,0
+k03_ctl_truth_X_r3,k03,otel-demo,control,ctl_truth,X,r3,gpt-6.2-sol,1,checkout:NetworkCorrupt,1,1,,,0,6,237149,1532,203904,0,43,1,1,0,0,0,,1795236857.2766762,0
+k04_ctl_invite_O_r1,k04,otel-demo,control,ctl_invite,O,r1,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,10,22,4948,336635,0.376247,59,1,1,0,0,0,,1795182987.568612,0
+k04_ctl_invite_O_r2,k04,otel-demo,control,ctl_invite,O,r2,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,13,28,6283,394859,0.5370638000000001,111,1,1,0,0,0,,1795200211.342359,0
+k04_ctl_invite_O_r3,k04,otel-demo,control,ctl_invite,O,r3,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,14,30,7231,519389,0.4917298,122,1,1,0,0,0,,1795201346.1471622,0
+k04_ctl_invite_S_r1,k04,otel-demo,control,ctl_invite,S,r1,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,7,16,2808,194700,0.093138,36,1,1,0,0,0,,1795182975.046002,0
+k04_ctl_invite_S_r2,k04,otel-demo,control,ctl_invite,S,r2,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,6,14,2773,144861,0.15458809999999995,27,1,1,0,0,0,,1795200211.431165,0
+k04_ctl_invite_S_r3,k04,otel-demo,control,ctl_invite,S,r3,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,5,12,2268,140363,0.0775043,30,1,1,0,0,0,,1795201342.209137,0
+k04_ctl_invite_X_r1,k04,otel-demo,control,ctl_invite,X,r1,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,10,504104,2634,441472,0,71,1,1,0,0,0,,1795199433.656853,0
+k04_ctl_invite_X_r2,k04,otel-demo,control,ctl_invite,X,r2,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,10,390378,2807,324480,0,80,1,1,0,0,0,,1795217895.94029,0
+k04_ctl_invite_X_r3,k04,otel-demo,control,ctl_invite,X,r3,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,10,443235,2575,390784,0,72,1,1,0,0,0,,1795236887.561976,0
+k04_ctl_truth_O_r1,k04,otel-demo,control,ctl_truth,O,r1,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,3,8,1710,86550,0.099078,19,1,1,0,0,0,,1795182981.335061,0
+k04_ctl_truth_O_r2,k04,otel-demo,control,ctl_truth,O,r2,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,5,12,1931,137415,0.11097500000000002,23,1,1,0,0,0,,1795183922.147415,0
+k04_ctl_truth_O_r3,k04,otel-demo,control,ctl_truth,O,r3,claude-opus-5-5,1,payment:PodFailure,1,1,,,0,3,8,1460,87049,0.0927938,28,1,1,0,0,0,,1795201343.753354,0
+k04_ctl_truth_S_r1,k04,otel-demo,control,ctl_truth,S,r1,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,2,6,686,62463,0.0295743,13,1,1,0,0,0,,1795182974.167715,0
+k04_ctl_truth_S_r2,k04,otel-demo,control,ctl_truth,S,r2,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,2,6,645,63466,0.025536600000000003,14,1,1,0,0,0,,1795183914.222116,0
+k04_ctl_truth_S_r3,k04,otel-demo,control,ctl_truth,S,r3,claude-sonnet-5-5,1,payment:PodFailure,1,1,,,0,2,6,646,62473,0.029787300000000003,10,1,1,0,0,0,,1795201331.795132,0
+k04_ctl_truth_X_r1,k04,otel-demo,control,ctl_truth,X,r1,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,6,130144,1100,110464,0,33,1,1,0,0,0,,1795199418.711082,0
+k04_ctl_truth_X_r2,k04,otel-demo,control,ctl_truth,X,r2,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,4,144906,1017,118144,0,28,1,1,0,0,0,,1795217892.24777,0
+k04_ctl_truth_X_r3,k04,otel-demo,control,ctl_truth,X,r3,gpt-6.2-sol,1,payment:PodFailure,1,1,,,0,5,170178,1170,131328,0,37,1,1,0,0,0,,1795236879.793049,0
+k05_ctl_invite_O_r1,k05,ts,control,ctl_invite,O,r1,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,11,24,6555,390422,0.42868039999999996,74,1,1,0,0,0,,1795183004.4641228,0
+k05_ctl_invite_O_r2,k05,ts,control,ctl_invite,O,r2,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,19,40,10766,755846,0.6503132,174,1,1,0,0,0,,1795200238.3597078,0
+k05_ctl_invite_O_r3,k05,ts,control,ctl_invite,O,r3,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,11,24,5847,382764,0.4049328,103,1,1,0,0,0,,1795201372.524668,0
+k05_ctl_invite_S_r1,k05,ts,control,ctl_invite,S,r1,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,4,10,1976,113776,0.06440159999999999,24,1,1,0,0,0,,1795183000.2955709,0
+k05_ctl_invite_S_r2,k05,ts,control,ctl_invite,S,r2,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,5,12,2568,121896,0.15290959999999998,26,1,1,0,0,0,,1795200211.6542962,0
+k05_ctl_invite_S_r3,k05,ts,control,ctl_invite,S,r3,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,5,12,2278,138777,0.0644177,29,1,1,0,0,0,,1795201366.789186,0
+k05_ctl_invite_X_r1,k05,ts,control,ctl_invite,X,r1,gpt-6.2-sol,1,mysql:NetworkLoss | ts-notification-service:CPUStress,2,1,,,1,4,138838,1047,112256,0,29,1,1,0,0,0,,1795199452.254308,0
+k05_ctl_invite_X_r2,k05,ts,control,ctl_invite,X,r2,gpt-6.2-sol,1,mysql:NetworkLoss,1,1,,,0,10,453597,2967,370304,0,91,1,1,0,0,0,,1795217904.742835,0
+k05_ctl_invite_X_r3,k05,ts,control,ctl_invite,X,r3,gpt-6.2-sol,1,mysql:NetworkLoss | ts-notification-service:CPUStress,2,1,,,1,5,178161,1280,144128,0,43,1,1,0,0,0,,1795236917.502568,0
+k05_ctl_truth_O_r1,k05,ts,control,ctl_truth,O,r1,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,7,16,3390,204025,0.23805300000000001,38,1,1,0,0,0,,1795183001.166562,0
+k05_ctl_truth_O_r2,k05,ts,control,ctl_truth,O,r2,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,5,12,2493,128026,0.3434252,44,1,1,0,0,0,,1795200211.555472,0
+k05_ctl_truth_O_r3,k05,ts,control,ctl_truth,O,r3,claude-opus-5-5,1,mysql:NetworkLoss,1,1,,,0,5,12,3301,143529,0.1824058,51,1,1,0,0,0,,1795201372.2605288,0
+k05_ctl_truth_S_r1,k05,ts,control,ctl_truth,S,r1,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,2,6,1025,63399,0.0397299,14,1,1,0,0,0,,1795182990.843096,0
+k05_ctl_truth_S_r2,k05,ts,control,ctl_truth,S,r2,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,2,6,706,63614,0.029485400000000002,14,1,1,0,0,0,,1795183932.4347231,0
+k05_ctl_truth_S_r3,k05,ts,control,ctl_truth,S,r3,claude-sonnet-5-5,1,mysql:NetworkLoss,1,1,,,0,2,6,687,62978,0.0336918,15,1,1,0,0,0,,1795201351.238152,0
+k05_ctl_truth_X_r1,k05,ts,control,ctl_truth,X,r1,gpt-6.2-sol,1,mysql:NetworkLoss | ts-notification-service:CPUStress,2,1,,,1,7,249736,1762,223744,0,49,1,1,0,0,0,,1795199436.300289,0
+k05_ctl_truth_X_r2,k05,ts,control,ctl_truth,X,r2,gpt-6.2-sol,1,mysql:NetworkLoss,1,1,,,0,6,198242,1394,174720,0,40,1,1,0,0,0,,1795217901.35407,0
+k05_ctl_truth_X_r3,k05,ts,control,ctl_truth,X,r3,gpt-6.2-sol,1,mysql:NetworkLoss,1,1,,,0,6,212945,1533,183680,0,53,1,1,0,0,0,,1795236900.431125,0
+k06_ctl_invite_O_r1,k06,ts,control,ctl_invite,O,r1,claude-opus-5-5,1,mysql:NetworkPartition | ts-ui-dashboard:NetworkLoss,2,1,,,1,12,26,8584,482977,0.5466193999999999,88,1,1,0,0,0,,1795183031.8731048,0
+k06_ctl_invite_O_r2,k06,ts,control,ctl_invite,O,r2,claude-opus-5-5,1,mysql:NetworkPartition,1,1,,,0,12,26,6925,418294,0.4402307999999999,104,1,1,0,0,0,,1795200273.56813,0
+k06_ctl_invite_O_r3,k06,ts,control,ctl_invite,O,r3,claude-opus-5-5,1,mysql:NetworkPartition,1,1,,,0,9,20,5549,307154,0.3488268,96,1,1,0,0,0,,1795201423.753833,0
+k06_ctl_invite_S_r1,k06,ts,control,ctl_invite,S,r1,claude-sonnet-5-5,1,mysql:NetworkPartition,1,1,,,0,8,18,3908,230311,0.1198071,44,1,1,0,0,0,,1795183024.107148,0
+k06_ctl_invite_S_r2,k06,ts,control,ctl_invite,S,r2,claude-sonnet-5-5,1,mysql:NetworkPartition,1,1,,,0,4,10,2055,113531,0.0641911,21,1,1,0,0,0,,1795200252.3161159,0
+k06_ctl_invite_S_r3,k06,ts,control,ctl_invite,S,r3,claude-sonnet-5-5,1,ts-order-other-service:NetworkPartition,1,1,,,0,8,18,3625,227796,0.10923759999999999,54,1,1,0,0,0,,1795201394.2074602,0
+k06_ctl_invite_X_r1,k06,ts,control,ctl_invite,X,r1,gpt-6.2-sol,1,mysql:NetworkPartition | ts-ui-dashboard:NetworkLoss,2,1,,,1,10,562465,2926,500096,0,91,1,1,0,0,0,,1795199471.395492,0
+k06_ctl_invite_X_r2,k06,ts,control,ctl_invite,X,r2,gpt-6.2-sol,1,mysql:NetworkPartition,1,1,,,0,9,407175,2691,355328,0,73,1,1,0,0,0,,1795217919.880853,0
+k06_ctl_invite_X_r3,k06,ts,control,ctl_invite,X,r3,gpt-6.2-sol,1,mysql:NetworkPartition,1,1,,,0,7,311676,1929,245248,0,52,1,1,0,0,0,,1795236922.071357,0
+k06_ctl_truth_O_r1,k06,ts,control,ctl_truth,O,r1,claude-opus-5-5,1,mysql:NetworkPartition,1,1,,,0,5,12,2309,139923,0.16359659999999998,26,1,1,0,0,0,,1795183025.507498,0
+k06_ctl_truth_O_r2,k06,ts,control,ctl_truth,O,r2,claude-opus-5-5,1,mysql:NetworkPartition,1,1,,,0,4,10,2173,114521,0.1442042,37,1,1,0,0,0,,1795200255.707851,0
+k06_ctl_truth_O_r3,k06,ts,control,ctl_truth,O,r3,claude-opus-5-5,1,mysql:NetworkPartition,1,1,,,0,4,10,1936,114285,0.119449,35,1,1,0,0,0,,1795201396.180354,0
+k06_ctl_truth_S_r1,k06,ts,control,ctl_truth,S,r1,claude-sonnet-5-5,1,mysql:NetworkPartition,1,1,,,0,2,6,709,62485,0.032994499999999996,11,1,1,0,0,0,,1795183014.8109992,0
+k06_ctl_truth_S_r2,k06,ts,control,ctl_truth,S,r2,claude-sonnet-5-5,1,mysql:NetworkPartition,1,1,,,0,3,8,1316,84787,0.0413147,13,1,1,0,0,0,,1795200238.8430889,0
+k06_ctl_truth_S_r3,k06,ts,control,ctl_truth,S,r3,claude-sonnet-5-5,1,mysql:NetworkPartition,1,1,,,0,2,6,649,63467,0.0277927,14,1,1,0,0,0,,1795201380.2169101,0
+k06_ctl_truth_X_r1,k06,ts,control,ctl_truth,X,r1,gpt-6.2-sol,1,mysql:NetworkPartition,1,1,,,0,5,179936,1360,153344,0,39,1,1,0,0,0,,1795199456.6939049,0
+k06_ctl_truth_X_r2,k06,ts,control,ctl_truth,X,r2,gpt-6.2-sol,1,mysql:NetworkPartition,1,1,,,0,4,138155,1101,114816,0,32,1,1,0,0,0,,1795217910.8240619,0
+k06_ctl_truth_X_r3,k06,ts,control,ctl_truth,X,r3,gpt-6.2-sol,1,mysql:NetworkPartition,1,1,,,0,5,169929,1328,145920,0,39,1,1,0,0,0,,1795236919.213585,0
