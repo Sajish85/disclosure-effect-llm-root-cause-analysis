@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the preprint."
+title: "The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault"
+authors:
+  - family-names: Krishnan
+    given-names: Sajish
+    orcid: "https://orcid.org/0009-0009-7561-9290"
+    affiliation: "Independent researcher"
+date-released: 2026-11-21
+doi: 10.5281/zenodo.24414407
+url: "https://zenodo.org/records/24414407"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault"
+  authors:
+    - family-names: Krishnan
+      given-names: Sajish
+      orcid: "https://orcid.org/0009-0009-7561-9290"
+  year: 2026
+  month: 11
+  journal: "Zenodo"
+  doi: 10.5281/zenodo.24414407
+  url: "https://doi.org/10.5281/zenodo.24414407"
