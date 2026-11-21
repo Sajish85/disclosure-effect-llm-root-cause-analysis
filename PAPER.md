@@ -1,8 +1,9 @@
 # The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault
 
-Sajish Krishnan
-
-*Draft 1, 20 November 2026.*
+**Sajish Krishnan**
+Independent researcher
+ORCID: 0009-0009-7561-9290
+*21 November 2026*
 
 ## Abstract
 
@@ -252,6 +253,10 @@ Leakage results are in §3.6. Three runs referred to paths outside their run dir
 ## 7 Conclusion
 
 For Sonnet-5.5, a truthful notice that names one fault in a two-fault incident strongly reduces how often the hidden fault's service is named (−0.896, 95% CI −1.000 to −0.771, 16 at-risk cases), and the same incidents without a notice or with a neutral notice do not show the drop. Measured by service and fault kind together, the drop is −0.292. Opus-5.5 moves in the same direction by −0.156, inconclusively, and the Codex model shows −0.020, inconclusively, on a complete grid. The finding is therefore specific to one diagnoser, one prompt and one notice wording. A one-sentence mitigation recovers part of the loss on most incidents and none on four. The next steps follow from the limitations: test a second notice wording and a prompt without the parsimony instruction, and add cases from a second benchmark.
+
+## Artefact availability
+
+The study harness, the pre-registered analysis plan and its errata, the full study report, and the regenerated per-run table (864 runs) and summary are available at https://github.com/Sajish85/disclosure-effect-llm-root-cause-analysis (Apache-2.0). The incident cases are from the public `anon-ops/ops-lite` dataset (Apache-2.0), cited below.
 
 ## References
 

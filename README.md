@@ -12,7 +12,7 @@ When an LLM incident responder is truthfully told which fault a fault-injection 
 
 - `PAPER.md` — the preprint text.
 - `FULL-REPORT.md` — the full study report, including the top-up addendum that completed the Codex grid.
-- `ANALYSIS-PLAN.md` — the pre-registered analysis plan (written before the full-study runs).
+- `ANALYSIS-PLAN.md` — the analysis plan (fixed before the full-study runs).
 - `ERRATA.md` — study errata, including the analyser error-rule correction.
 - `PILOT-REPORT.md` — the pilot study that preceded the full study.
 - `code/` — the run harness (`run_full.py`), case selection and plan builders, the leak audit, and the analysis scripts (`analyze_full.py`).
