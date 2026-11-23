@@ -2,7 +2,7 @@
 
 Code, data and full study record for the preprint:
 
-**Sajish Krishnan (2026). "The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault."** Zenodo. https://doi.org/10.5281/zenodo.24414407
+**Sajish Krishnan (2026). "The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault."** Zenodo. https://doi.org/10.5281/zenodo.24414406
 
 ## What the study found
 
@@ -28,7 +28,7 @@ The incident telemetry is the public `anon-ops/ops-lite` dataset (OpenRCA 2.0 op
 
 ## How to cite
 
-Krishnan, S. (2026). *The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault.* Zenodo. https://doi.org/10.5281/zenodo.24414407
+Krishnan, S. (2026). *The Disclosure Effect in LLM Root Cause Analysis: A Truthful Notice About One Injected Fault Suppresses Diagnosis of a Hidden Second Fault.* Zenodo. https://doi.org/10.5281/zenodo.24414406
 
 ```bibtex
 @misc{krishnan2026disclosure,
@@ -37,8 +37,8 @@ Krishnan, S. (2026). *The Disclosure Effect in LLM Root Cause Analysis: A Truthf
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.24414407},
-  url          = {https://doi.org/10.5281/zenodo.24414407}
+  doi          = {10.5281/zenodo.24414406},
+  url          = {https://doi.org/10.5281/zenodo.24414406}
 }
 ```
 
